@@ -1,0 +1,263 @@
+{
+	"ff:azalea_flower": {
+		"sound": "grass"
+	},
+	"ff:hibiscus": {
+		"sound": "grass"
+	},
+	"ff:carnation": {
+		"sound": "grass"
+	},
+	"ff:marigold": {
+		"sound": "grass"
+	},
+	"ff:marigold_tall": {
+		"sound": "grass"
+	},
+	"ff:marigold_large": {
+		"sound": "grass"
+	},
+	"ff:tiger_lily": {
+		"sound": "grass"
+	},
+	"ff:gold_rose": {
+		"sound": "grass"
+	},
+	"ff:gold_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:gold_rose_large": {
+		"sound": "grass"
+	},
+	"ff:gold_rose_short": {
+		"sound": "grass"
+	},
+	"ff:tiger_lily_tall": {
+		"sound": "grass"
+	},
+	"ff:tiger_lily_large": {
+		"sound": "grass"
+	},
+	"ff:rose": {
+		"sound": "grass"
+	},
+	"ff:rose_tall": {
+		"sound": "grass"
+	},
+	"ff:rose_large": {
+		"sound": "grass"
+	},
+	"ff:rose_short": {
+		"sound": "grass"
+	},
+	"ff:daffodil": {
+		"sound": "grass"
+	},
+	"ff:angels_trumpet": {
+		"sound": "grass"
+	},
+	"ff:dandelion_tall": {
+		"sound": "grass"
+	},
+	"ff:dandelion_large": {
+		"sound": "grass"
+	},
+	"ff:dandelion_short": {
+		"sound": "grass"
+	},
+	"ff:wither_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:wither_rose_large": {
+		"sound": "grass"
+	},
+	"ff:wither_rose_short": {
+		"sound": "grass"
+	},
+	"ff:buttercup": {
+		"sound": "grass"
+	},
+	"ff:buttercup_tall": {
+		"sound": "grass"
+	},
+	"ff:buttercup_large": {
+		"sound": "grass"
+	},
+	"ff:anemone": {
+		"sound": "grass"
+	},
+	"ff:pink_bleeding_heart": {
+		"sound": "grass"
+	},
+	"ff:pink_bleeding_heart_tall": {
+		"sound": "grass"
+	},
+	"ff:pink_bleeding_heart_large": {
+		"sound": "grass"
+	},
+	"ff:pink_rose": {
+		"sound": "grass"
+	},
+	"ff:pink_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:pink_rose_large": {
+		"sound": "grass"
+	},
+	"ff:pink_rose_short": {
+		"sound": "grass"
+	},
+	"ff:petunia": {
+		"sound": "grass"
+	},
+	"ff:periwinkle": {
+		"sound": "grass"
+	},
+	"ff:purple_orchid": {
+		"sound": "grass"
+	},
+	"ff:hemlock": {
+		"sound": "grass"
+	},
+	"ff:chocolate_cosmos": {
+		"sound": "grass"
+	},
+	"ff:queen_tulip": {
+		"sound": "grass"
+	},
+	"ff:snapdragon": {
+		"sound": "grass"
+	},
+	"ff:snapdragon_tall": {
+		"sound": "grass"
+	},
+	"ff:foxglove": {
+		"sound": "grass"
+	},
+	"ff:foxglove_tall": {
+		"sound": "grass"
+	},
+	"ff:wolfsbane": {
+		"sound": "grass"
+	},
+	"ff:wolfsbane_tall": {
+		"sound": "grass"
+	},
+	"ff:gardenia": {
+		"sound": "grass"
+	},
+	"ff:gardenia_tall": {
+		"sound": "grass"
+	},
+	"ff:grieving_rose": {
+		"sound": "grass"
+	},
+	"ff:grieving_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:grieving_rose_large": {
+		"sound": "grass"
+	},
+	"ff:grieving_rose_short": {
+		"sound": "grass"
+	},
+	"ff:corrupted_rose": {
+		"sound": "grass"
+	},
+	"ff:corrupted_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:corrupted_rose_large": {
+		"sound": "grass"
+	},
+	"ff:corrupted_rose_short": {
+		"sound": "grass"
+	},
+	"ff:cyan_rose": {
+		"sound": "grass"
+	},
+	"ff:cyan_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:cyan_rose_large": {
+		"sound": "grass"
+	},
+	"ff:cyan_rose_short": {
+		"sound": "grass"
+	},
+	"ff:white_rose": {
+		"sound": "grass"
+	},
+	"ff:white_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:white_rose_large": {
+		"sound": "grass"
+	},
+	"ff:white_rose_short": {
+		"sound": "grass"
+	},
+	"ff:blue_bleeding_heart": {
+		"sound": "grass"
+	},
+	"ff:blue_bleeding_heart_tall": {
+		"sound": "grass"
+	},
+	"ff:blue_bleeding_heart_large": {
+		"sound": "grass"
+	},
+	"ff:white_bleeding_heart": {
+		"sound": "grass"
+	},
+	"ff:white_bleeding_heart_tall": {
+		"sound": "grass"
+	},
+	"ff:white_bleeding_heart_large": {
+		"sound": "grass"
+	},
+	"ff:black_bleeding_heart": {
+		"sound": "grass"
+	},
+	"ff:black_bleeding_heart_tall": {
+		"sound": "grass"
+	},
+	"ff:black_bleeding_heart_large": {
+		"sound": "grass"
+	},
+	"ff:lavender": {
+		"sound": "grass"
+	},
+	"ff:lavender_tall": {
+		"sound": "grass"
+	},
+	"ff:lavender_large": {
+		"sound": "grass"
+	},
+	"ff:grieving_lavender": {
+		"sound": "grass"
+	},
+	"ff:grieving_lavender_tall": {
+		"sound": "grass"
+	},
+	"ff:grieving_lavender_large": {
+		"sound": "grass"
+	},
+	"ff:bluebell": {
+		"sound": "grass"
+	},
+	"ff:bluebell_tall": {
+		"sound": "grass"
+	},
+	"ff:bluebell_large": {
+		"sound": "grass"
+	},
+	"ff:corrupted_bluebell": {
+		"sound": "grass"
+	},
+	"ff:corrupted_bluebell_tall": {
+		"sound": "grass"
+	},
+	"ff:corrupted_bluebell_large": {
+		"sound": "grass"
+	}
+}

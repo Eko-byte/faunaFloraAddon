@@ -1,0 +1,13 @@
+{
+	"author": "Syko Network (Eko)",
+	"name": "Flower Preset",
+	"version": "1.0.0",
+	"id": "9786dc70-b7dc-4795-87e9-f37bdae4969d",
+	"description": "Allows you to easily create flowers!",
+	"api_version": 2,
+	"target": "v2",
+	"tags": [
+		"Presets"
+	],
+	"releaseTimestamp": 1627412426905
+}

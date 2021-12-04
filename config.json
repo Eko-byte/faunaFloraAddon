@@ -1,0 +1,41 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Fauna And Flora",
+	"namespace": "ff",
+	"authors": [
+		"Flora Team"
+	],
+	"targetVersion": "1.17.40",
+	"description": "Open Source Project With Numerous New Plants",
+	"experimentalGameplay": {
+		"cavesAndCliffs": false,
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": true,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Fauna And Flora"
+				}
+			]
+		]
+	}
+}

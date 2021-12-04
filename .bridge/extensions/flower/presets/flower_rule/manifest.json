@@ -1,0 +1,91 @@
+{
+  "name": "ABC Flower Rule",
+  "icon": "mdi-pickaxe",
+  "description": "Creates Custom Flower Generation, Choose between Stand Alone or Clusters! In Biomes Put 'biome', 'biome' in flower do ['flower', #], ['flower', #] where # is how common it is",
+  "category": "fileType.block",
+  "targetVersion": [
+    ">=",
+    "1.17.0"
+  ],
+  "packTypes": [
+    "behaviorPack",
+    "resourcePack"
+  ],
+  "fields": [
+    [
+      "Rule Name (Lowercase, if not flower patch use flower name)",
+      "IDENTIFIER",
+      {
+        "validate": [
+          "required",
+          "alphanumeric",
+          "lowercase"
+        ]
+      }
+    ],
+    [
+      "Biomes (see description)",
+      "BIOMES",
+      {
+        "validate": [
+          "lowercase"
+        ],
+        "optional": true
+      }
+    ],
+    [
+      "Rarity (Higher = Common)",
+      "RARITY",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Flowers (CLUSTER ONLY, see description)",
+      "FLOWERS",
+      {
+        "validate": [
+          "lowercase"
+        ],
+        "optional": true
+      }
+    ],
+    [
+      "Patch Size (CLUSTER ONLY)",
+      "PATCH_SIZE",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 40,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Patch Scattering (CLUSTER ONLY)",
+      "PATCH_SCATTER_CHANCE",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "optional": true
+      }
+    ],
+    [
+      "Cluster",
+      "CLUSTER",
+      {
+        "type": "switch",
+        "optional": true
+      }
+    ]
+  ],
+  "createFiles": [
+    "./rule.js"
+  ]
+}

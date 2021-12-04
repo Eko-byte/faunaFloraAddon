@@ -1,0 +1,131 @@
+{
+  "name": "ABC Flower",
+  "icon": "mdi-pickaxe",
+  "description": "Creates Custom Flower, know that each tier adds another flower, tiwer two is small flower and double tall. Images are named flower_tier (tier being tall, small bush [used in 4th tier], and large [1st tier does not use any]",
+  "category": "fileType.block",
+  "targetVersion": [
+    ">=",
+    "1.17.0"
+  ],
+  "packTypes": [
+    "behaviorPack",
+    "resourcePack"
+  ],
+  "fields": [
+    [
+      "Flower Name (Lowercase)",
+      "IDENTIFIER",
+      {
+        "validate": [
+          "required",
+          "alphanumeric",
+          "lowercase"
+        ]
+      }
+    ],
+    [
+      "Display Name",
+      "IDENTIFIER_NAME",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ],
+    [
+      "Select Dye Color",
+      "DYE",
+      {
+        "type": "selectInput",
+        "default": "IRON",
+        "options": [
+          { "text": "White", "value": 19 },
+          { "text": "Light Gray", "value": 7 },
+          { "text": "Gray", "value": 8 },
+          { "text": "Black", "value": 16 },
+          { "text": "Brown", "value": 17 },
+          { "text": "Red", "value": 1 },
+          { "text": "Orange", "value": 0 },
+          { "text": "Yellow", "value": 11 },
+          { "text": "Lime", "value": 10 },
+          { "text": "Green", "value": 2 },
+          { "text": "Blue", "value": 14 },
+          { "text": "Light Blue", "value": 12 },
+          { "text": "Cyan", "value": 6 },
+          { "text": "Purple", "value": 5 },
+          { "text": "Magenta", "value": 13 },
+          { "text": "Pink", "value": 9 }
+        ],
+        "optional": true
+      }
+    ],
+    [
+      "Tier (1 flower, 2 flowers [1 tall], 3 flowers [1 large], 4 flowers [1 short]",
+      "TIER",
+      {
+        "type": "numberInput",
+        "min": 1,
+        "max": 4,
+        "step": 1
+      }
+    ],
+    [
+      "Normal Flower Image (All Tiers)",
+      "IMAGE1",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ],
+    [
+      "Tall Flower Image (Tier 2 and Up)",
+      "IMAGE2",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ],
+    [
+      "Tall Flower ITEM Image (Tier 2 and Up)",
+      "IMAGE5",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ],
+    [
+      "Large Flower Image (Tier 3 and Up)",
+      "IMAGE3",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ],
+    [
+      "Large Flower ITEM Image (Tier 3 and Up)",
+      "IMAGE6",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ],
+    [
+      "Small Bush Flower Image (Tier 4 Only)",
+      "IMAGE4",
+      {
+        "type": "fileInput",
+        "accept": "image/png",
+        "optional": true
+      }
+    ]
+  ],
+  "createFiles": [
+    "./tier.js",
+    "./image.js"
+  ]
+}

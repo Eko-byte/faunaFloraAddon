@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Flora Team"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.1.5"
+			]
+		}
+	},
+	"header": {
+		"name": "Fauna And Flora",
+		"description": "Open Source Project With Numerous New Plants",
+		"min_engine_version": [
+			1,
+			17,
+			0
+		],
+		"uuid": "7e9c324d-01d5-4570-8170-eddca76451de",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "954761a4-faae-4083-a3cc-3c67ad71c9f3",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
