@@ -659,7 +659,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         "enforce_placement_rules": true
       }
     };
-    await createFile(`BP/loot_tables/${IDENTIFIER}/${type}.json`, JSON.stringify(lootData));
+    await createFile(`BP/loot_tables/blocks/${IDENTIFIER}/${type}.json`, JSON.stringify(lootData));
     await createFile(`BP/items/${IDENTIFIER}/${type}.json`, JSON.stringify(itemData));
     await createFile(`BP/features/${type}_feature.json`, JSON.stringify(featureData));
   }
