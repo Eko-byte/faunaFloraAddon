@@ -45,7 +45,7 @@
     },
     "events": {
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/cyan_rose/large_cyan_rose.json" },
+        "spawn_loot": { "table": "loot_tables/blocks/cyan_rose/cyan_rose_large.json" },
         "decrement_stack": {},
         "run_command": {
           "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]

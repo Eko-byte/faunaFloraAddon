@@ -106,7 +106,7 @@
       },
       "fertilize_block": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/black_bleeding_heart/tall_black_bleeding_heart.json"
+          "table": "loot_tables/blocks/black_bleeding_heart/black_bleeding_heart_tall.json"
         },
         "decrement_stack": {},
         "run_command": {

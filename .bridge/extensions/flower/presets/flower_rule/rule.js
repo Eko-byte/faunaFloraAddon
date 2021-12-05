@@ -10,7 +10,7 @@ module.exports = async ({ createFile, models }) => {
   } = models;
 
   var type = IDENTIFIER;
-  var biomes = [BIOMES]; //"biome", "biome"
+  var biomes = [BIOMES]; //biome, biome
   var rarity = RARITY;
 
   if (CLUSTER) {
@@ -22,14 +22,13 @@ module.exports = async ({ createFile, models }) => {
   if (CLUSTER) {
     var patchSize = PATCH_SIZE;
     var patchScatterChance = PATCH_SCATTER_CHANCE;
-    var flowers = [FLOWERS]; // ["flower", rarity], ["flower", rarity]
     var patchData = {
       format_version: "1.13.0",
       "minecraft:weighted_random_feature": {
         description: {
           identifier: `ff:${IDENTIFIER}_flower_feature`,
         },
-        features: flowers,
+        features: [FLOWERS],
       },
     };
     await createFile(

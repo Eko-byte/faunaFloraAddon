@@ -45,7 +45,7 @@
     },
     "events": {
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/tiger_lily/large_tiger_lily.json" },
+        "spawn_loot": { "table": "loot_tables/blocks/tiger_lily/tiger_lily_large.json" },
         "decrement_stack": {},
         "run_command": {
           "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]

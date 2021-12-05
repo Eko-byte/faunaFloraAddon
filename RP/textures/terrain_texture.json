@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"nothing": {
+			"textures": "textures/blocks/nothing"
+		},
 		"azalea_flower": {
 			"textures": "textures/blocks/azalea/azalea_flower"
 		},
@@ -257,6 +260,12 @@
 		},
 		"corrupted_bluebell_large": {
 			"textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell_large"
+		},
+		"sunflower": {
+			"textures": "textures/blocks/sunflower/sunflower"
+		},
+		"sunflower_large": {
+			"textures": "textures/blocks/sunflower/sunflower_large"
 		}
 	}
 }

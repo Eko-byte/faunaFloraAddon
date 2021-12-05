@@ -46,7 +46,7 @@
     "events": {
       "fertilize_block": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/corrupted_rose/large_corrupted_rose.json"
+          "table": "loot_tables/blocks/corrupted_rose/corrupted_rose_large.json"
         },
         "decrement_stack": {},
         "run_command": {

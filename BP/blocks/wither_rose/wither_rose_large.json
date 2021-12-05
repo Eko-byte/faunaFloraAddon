@@ -1,22 +1,36 @@
 {
   "format_version": "1.16.100",
   "minecraft:block": {
-    "description": { "identifier": "ff:wither_rose_large" },
+    "description": {
+      "identifier": "ff:wither_rose_large"
+    },
     "components": {
       "minecraft:pick_collision": {
-        "origin": [-7, 0, -7],
-        "size": [14, 16, 14]
+        "origin": [
+          -7,
+          0,
+          -7
+        ],
+        "size": [
+          14,
+          16,
+          14
+        ]
       },
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["up"],
+            "allowed_faces": [
+              "up"
+            ],
             "block_filter": [
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
               "minecraft:dirt_with_roots",
-              "minecraft:moss_block"
+              "minecraft:moss_block",
+              "minecraft:netherrack",
+              "minecraft:soul_sand"
             ]
           }
         ]
@@ -45,10 +59,14 @@
     },
     "events": {
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/wither_rose/large_wither_rose.json" },
+        "spawn_loot": {
+          "table": "loot_tables/blocks/wither_rose/wither_rose_large.json"
+        },
         "decrement_stack": {},
         "run_command": {
-          "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
         }
       }
     }

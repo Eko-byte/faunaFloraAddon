@@ -3,16 +3,31 @@
   "minecraft:block": {
     "description": {
       "identifier": "ff:wither_rose_tall",
-      "properties": { "ff:upper_bit": [0, 1] }
+      "properties": {
+        "ff:upper_bit": [
+          0,
+          1
+        ]
+      }
     },
     "permutations": [
       {
         "condition": "query.block_property('ff:upper_bit') == 0",
         "components": {
-          "minecraft:on_player_destroyed": { "event": "destroy_top" },
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_top"
+          },
           "minecraft:pick_collision": {
-            "origin": [-3.5, 0, -3.5],
-            "size": [7, 16, 7]
+            "origin": [
+              -3.5,
+              0,
+              -3.5
+            ],
+            "size": [
+              7,
+              16,
+              7
+            ]
           },
           "minecraft:loot": "loot_tables/blocks/wither_rose/wither_rose_tall.json"
         }
@@ -29,10 +44,20 @@
               "ambient_occlusion": false
             }
           },
-          "minecraft:on_player_destroyed": { "event": "destroy_bottom" },
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_bottom"
+          },
           "minecraft:pick_collision": {
-            "origin": [-3.5, 0, -3.5],
-            "size": [7, 10, 7]
+            "origin": [
+              -3.5,
+              0,
+              -3.5
+            ],
+            "size": [
+              7,
+              10,
+              7
+            ]
           }
         }
       }
@@ -43,14 +68,18 @@
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["up"],
+            "allowed_faces": [
+              "up"
+            ],
             "block_filter": [
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
               "minecraft:dirt_with_roots",
               "ff:wither_rose_tall",
-              "moss_block"
+              "moss_block",
+              "minecraft:netherrack",
+              "minecraft:soul_sand"
             ]
           }
         ]
@@ -75,16 +104,25 @@
         "condition": "q.get_equipped_item_name=='bone_meal'",
         "event": "fertilize_block"
       },
-      "minecraft:on_placed": { "event": "check_for_bottom" }
+      "minecraft:on_placed": {
+        "event": "check_for_bottom"
+      }
     },
     "events": {
       "check_for_bottom": {
         "sequence": [
           {
             "condition": "q.block_neighbor_has_all_tags(0,-1,0,'flower_bottom')",
-            "set_block_property": { "ff:upper_bit": 1 }
+            "set_block_property": {
+              "ff:upper_bit": 1
+            }
           },
-          { "trigger": { "event": "add_top", "target": "self" } }
+          {
+            "trigger": {
+              "event": "add_top",
+              "target": "self"
+            }
+          }
         ]
       },
       "add_top": {
@@ -92,23 +130,37 @@
           {
             "condition": "!query.block_property('ff:upper_bit') == 1",
             "set_block_at_pos": {
-              "block_offset": [0, 1, 0],
+              "block_offset": [
+                0,
+                1,
+                0
+              ],
               "block_type": "ff:wither_rose_tall"
             }
           }
         ]
       },
       "destroy_top": {
-        "run_command": { "command": "fill ~ ~1 ~ ~ ~1 ~ air 0 destroy" }
+        "run_command": {
+          "command": "fill ~ ~1 ~ ~ ~1 ~ air 0 destroy"
+        }
       },
       "destroy_bottom": {
-        "run_command": { "command": ["fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy"] }
+        "run_command": {
+          "command": [
+            "fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy"
+          ]
+        }
       },
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/wither_rose/tall_wither_rose.json" },
+        "spawn_loot": {
+          "table": "loot_tables/blocks/wither_rose/wither_rose_tall.json"
+        },
         "decrement_stack": {},
         "run_command": {
-          "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
         }
       }
     }

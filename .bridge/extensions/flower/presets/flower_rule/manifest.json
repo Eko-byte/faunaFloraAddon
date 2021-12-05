@@ -1,7 +1,7 @@
 {
   "name": "ABC Flower Rule",
   "icon": "mdi-pickaxe",
-  "description": "Creates Custom Flower Generation, Choose between Stand Alone or Clusters! In Biomes Put 'biome', 'biome' in flower do ['flower', #], ['flower', #] where # is how common it is",
+  "description": "Creates Custom Flower Generation, Choose between Stand Alone or Clusters! In Biomes Put biome, biome in flower do ['flower', #], ['flower', #] where # is how common it is",
   "category": "fileType.block",
   "targetVersion": [
     ">=",

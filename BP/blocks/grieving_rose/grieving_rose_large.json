@@ -46,7 +46,7 @@
     "events": {
       "fertilize_block": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/grieving_rose/large_grieving_rose.json"
+          "table": "loot_tables/blocks/grieving_rose/grieving_rose_large.json"
         },
         "decrement_stack": {},
         "run_command": {

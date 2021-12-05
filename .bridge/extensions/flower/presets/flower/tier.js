@@ -221,7 +221,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
           },
           fertilize_block: {
             spawn_loot: {
-              table: `loot_tables/blocks/${IDENTIFIER}/tall_${IDENTIFIER}.json`,
+              table: `loot_tables/blocks/${IDENTIFIER}/${IDENTIFIER}_tall.json`,
             },
             decrement_stack: {},
             run_command: {
@@ -348,7 +348,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         events: {
           fertilize_block: {
             spawn_loot: {
-              table: `loot_tables/blocks/${IDENTIFIER}/large_${IDENTIFIER}.json`,
+              table: `loot_tables/blocks/${IDENTIFIER}/${IDENTIFIER}_large.json`,
             },
             decrement_stack: {},
             run_command: {

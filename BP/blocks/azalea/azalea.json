@@ -15,7 +15,9 @@
                             "minecraft:grass",
                             "minecraft:dirt",
                             "minecraft:podzol",
-                            "minecraft:moss_block"
+                            "minecraft:moss_block",
+                            "azalea_leaves_flowered",
+                            "azalea_leaves"
                         ]
                     }
                 ]

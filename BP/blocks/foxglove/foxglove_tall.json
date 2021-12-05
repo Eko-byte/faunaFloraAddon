@@ -125,7 +125,7 @@
       },
       "fertilize_block": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/foxglove/tall_foxglove.json"
+          "table": "loot_tables/blocks/foxglove/foxglove_tall.json"
         },
         "decrement_stack": {},
         "run_command": {

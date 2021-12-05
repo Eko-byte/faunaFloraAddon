@@ -45,7 +45,7 @@
     },
     "events": {
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/dandelion/large_dandelion.json" },
+        "spawn_loot": { "table": "loot_tables/blocks/dandelion/dandelion_large.json" },
         "decrement_stack": {},
         "run_command": {
           "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]

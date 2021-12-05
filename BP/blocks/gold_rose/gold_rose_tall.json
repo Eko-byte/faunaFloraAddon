@@ -105,7 +105,7 @@
         "run_command": { "command": ["fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy"] }
       },
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/gold_rose/tall_gold_rose.json" },
+        "spawn_loot": { "table": "loot_tables/blocks/gold_rose/gold_rose_tall.json" },
         "decrement_stack": {},
         "run_command": {
           "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]

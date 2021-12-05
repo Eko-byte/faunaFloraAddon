@@ -46,7 +46,7 @@
     "events": {
       "fertilize_block": {
         "spawn_loot": {
-          "table": "loot_tables/blocks/blue_bleeding_heart/large_blue_bleeding_heart.json"
+          "table": "loot_tables/blocks/blue_bleeding_heart/blue_bleeding_heart_large.json"
         },
         "decrement_stack": {},
         "run_command": {
