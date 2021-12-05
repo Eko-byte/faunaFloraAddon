@@ -259,7 +259,7 @@
 			"textures": "textures/items/corrupted_bluebell/corrupted_bluebell_large"
 		},
 		"sunflower": {
-			"textures": "textures/blocks/sunflower/sunflower"
+			"textures": "textures/items/sunflower/sunflower"
 		},
 		"sunflower_large": {
 			"textures": "textures/items/sunflower/sunflower_large"
