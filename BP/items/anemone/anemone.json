@@ -5,7 +5,7 @@
     "components": {
       "minecraft:block_placer": {
         "block": "ff:anemone",
-        "use_on": ["grass", "dirt", "podzol", "moss_block", "dirt_with_root"]
+        "use_on": ["grass", "dirt", "podzol", "moss_block", "dirt_with_roots"]
       },
       "minecraft:icon": { "texture": "anemone" },
       "minecraft:creative_category": { "parent": "itemGroup.name.flower" },
