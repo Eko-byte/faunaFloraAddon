@@ -15,6 +15,7 @@
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
+              "minecraft:dirt_with_root",
               "minecraft:moss_block"
             ]
           }

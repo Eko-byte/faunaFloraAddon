@@ -48,6 +48,7 @@
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
+              "minecraft:dirt_with_root",
               "ff:tiger_lily_tall",
               "moss_block"
             ]

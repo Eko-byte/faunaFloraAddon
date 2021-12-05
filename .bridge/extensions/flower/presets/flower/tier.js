@@ -18,6 +18,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
                   "minecraft:dirt",
                   "minecraft:podzol",
                   "minecraft:moss_block",
+                  "minecraft:dirt_with_root",
                 ],
               },
             ],
@@ -148,6 +149,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
                   "minecraft:grass",
                   "minecraft:dirt",
                   "minecraft:podzol",
+                  "minecraft:dirt_with_root",
                   `ff:${IDENTIFIER}_tall`,
                   "moss_block",
                 ],
@@ -316,6 +318,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
                   "minecraft:dirt",
                   "minecraft:podzol",
                   "minecraft:moss_block",
+                  "minecraft:dirt_with_root",
                 ],
               },
             ],
@@ -438,6 +441,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
                   "minecraft:dirt",
                   "minecraft:podzol",
                   "minecraft:moss_block",
+                  "minecraft:dirt_with_root",
                 ],
               },
             ],
@@ -620,7 +624,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
         components: {
           "minecraft:block_placer": {
             block: `ff:${type}`,
-            use_on: ["grass", "dirt", "podzol", "moss_block"],
+            use_on: ["grass", "dirt", "podzol", "moss_block", "dirt_with_root"],
           },
           "minecraft:icon": {
             texture: `${type}`,

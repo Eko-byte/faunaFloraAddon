@@ -54,6 +54,7 @@
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
+              "minecraft:dirt_with_root",
               "ff:foxglove_tall",
               "moss_block"
             ]

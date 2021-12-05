@@ -48,6 +48,7 @@
               "minecraft:grass",
               "minecraft:dirt",
               "minecraft:podzol",
+              "minecraft:dirt_with_root",
               "ff:pink_rose_tall",
               "moss_block"
             ]

@@ -12,7 +12,8 @@
                     "grass",
                     "dirt",
                     "podzol",
-                    "moss_block"
+                    "moss_block",
+                    "dirt_with_root"
                 ]
             },
             "minecraft:icon": {
