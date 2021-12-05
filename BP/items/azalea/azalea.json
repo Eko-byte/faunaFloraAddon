@@ -13,7 +13,9 @@
                     "dirt",
                     "podzol",
                     "moss_block",
-                    "dirt_with_roots"
+                    "dirt_with_roots",
+                    "azalea_leaves_flowered",
+                    "azalea_leaves"
                 ]
             },
             "minecraft:icon": {
