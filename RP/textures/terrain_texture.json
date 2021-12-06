@@ -266,6 +266,153 @@
 		},
 		"sunflower_large": {
 			"textures": "textures/blocks/sunflower/sunflower_large"
+		},
+		"lilac": {
+			"textures": "textures/blocks/lilac/lilac"
+		},
+		"lilac_large": {
+			"textures": "textures/blocks/lilac/lilac_large"
+		},
+		"peony": {
+			"textures": "textures/blocks/peony/peony"
+		},
+		"peony_large": {
+			"textures": "textures/blocks/peony/peony_large"
+		},
+		"peony_short": {
+			"textures": "textures/blocks/peony/peony_short"
+		},
+		"blue_dragon_rose": {
+			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose"
+		},
+		"blue_dragon_rose_tall": {
+			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_tall"
+		},
+		"blue_dragon_rose_large": {
+			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_large"
+		},
+		"blue_dragon_rose_short": {
+			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_short"
+		},
+		"allium_tall": {
+			"textures": "textures/blocks/allium/allium_tall"
+		},
+		"allium_large": {
+			"textures": "textures/blocks/allium/allium_large"
+		},
+		"allium_short": {
+			"textures": "textures/blocks/allium/allium_short"
+		},
+		"poppy_tall": {
+			"textures": "textures/blocks/poppy/poppy_tall"
+		},
+		"poppy_large": {
+			"textures": "textures/blocks/poppy/poppy_large"
+		},
+		"poppy_short": {
+			"textures": "textures/blocks/poppy/poppy_short"
+		},
+		"lily_valley_tall": {
+			"textures": "textures/blocks/lily_valley/lily_valley_tall"
+		},
+		"lily_valley_large": {
+			"textures": "textures/blocks/lily_valley/lily_valley_large"
+		},
+		"lily_valley_short": {
+			"textures": "textures/blocks/lily_valley/lily_valley_short"
+		},
+		"white_tulip_tall": {
+			"textures": "textures/blocks/white_tulip/white_tulip_tall"
+		},
+		"white_tulip_large": {
+			"textures": "textures/blocks/white_tulip/white_tulip_large"
+		},
+		"white_tulip_short": {
+			"textures": "textures/blocks/white_tulip/white_tulip_short"
+		},
+		"red_tulip_tall": {
+			"textures": "textures/blocks/red_tulip/red_tulip_tall"
+		},
+		"red_tulip_large": {
+			"textures": "textures/blocks/red_tulip/red_tulip_large"
+		},
+		"red_tulip_short": {
+			"textures": "textures/blocks/red_tulip/red_tulip_short"
+		},
+		"pink_tulip_tall": {
+			"textures": "textures/blocks/pink_tulip/pink_tulip_tall"
+		},
+		"pink_tulip_large": {
+			"textures": "textures/blocks/pink_tulip/pink_tulip_large"
+		},
+		"pink_tulip_short": {
+			"textures": "textures/blocks/pink_tulip/pink_tulip_short"
+		},
+		"orange_tulip_tall": {
+			"textures": "textures/blocks/orange_tulip/orange_tulip_tall"
+		},
+		"orange_tulip_large": {
+			"textures": "textures/blocks/orange_tulip/orange_tulip_large"
+		},
+		"orange_tulip_short": {
+			"textures": "textures/blocks/orange_tulip/orange_tulip_short"
+		},
+		"yellow_tulip": {
+			"textures": "textures/blocks/yellow_tulip/yellow_tulip"
+		},
+		"yellow_tulip_tall": {
+			"textures": "textures/blocks/yellow_tulip/yellow_tulip_tall"
+		},
+		"yellow_tulip_large": {
+			"textures": "textures/blocks/yellow_tulip/yellow_tulip_large"
+		},
+		"yellow_tulip_short": {
+			"textures": "textures/blocks/yellow_tulip/yellow_tulip_short"
+		},
+		"purple_tulip": {
+			"textures": "textures/blocks/purple_tulip/purple_tulip"
+		},
+		"purple_tulip_tall": {
+			"textures": "textures/blocks/purple_tulip/purple_tulip_tall"
+		},
+		"purple_tulip_large": {
+			"textures": "textures/blocks/purple_tulip/purple_tulip_large"
+		},
+		"purple_tulip_short": {
+			"textures": "textures/blocks/purple_tulip/purple_tulip_short"
+		},
+		"green_tulip": {
+			"textures": "textures/blocks/green_tulip/green_tulip"
+		},
+		"green_tulip_tall": {
+			"textures": "textures/blocks/green_tulip/green_tulip_tall"
+		},
+		"green_tulip_large": {
+			"textures": "textures/blocks/green_tulip/green_tulip_large"
+		},
+		"green_tulip_short": {
+			"textures": "textures/blocks/green_tulip/green_tulip_short"
+		},
+		"blue_tulip": {
+			"textures": "textures/blocks/blue_tulip/blue_tulip"
+		},
+		"blue_tulip_tall": {
+			"textures": "textures/blocks/blue_tulip/blue_tulip_tall"
+		},
+		"blue_tulip_large": {
+			"textures": "textures/blocks/blue_tulip/blue_tulip_large"
+		},
+		"blue_tulip_short": {
+			"textures": "textures/blocks/blue_tulip/blue_tulip_short"
+		},
+		"oxeye_daisy_tall": {
+			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_tall"
+		},
+		"oxeye_daisy_large": {
+			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_large"
+		},
+		"oxeye_daisy_short": {
+			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_short"
 		}
 	}
 }

@@ -265,5 +265,152 @@
 	},
 	"ff:sunflower_large": {
 		"sound": "grass"
+	},
+	"ff:lilac": {
+		"sound": "grass"
+	},
+	"ff:lilac_large": {
+		"sound": "grass"
+	},
+	"ff:peony": {
+		"sound": "grass"
+	},
+	"ff:peony_large": {
+		"sound": "grass"
+	},
+	"ff:peony_short": {
+		"sound": "grass"
+	},
+	"ff:blue_dragon_rose": {
+		"sound": "grass"
+	},
+	"ff:blue_dragon_rose_tall": {
+		"sound": "grass"
+	},
+	"ff:blue_dragon_rose_large": {
+		"sound": "grass"
+	},
+	"ff:blue_dragon_rose_short": {
+		"sound": "grass"
+	},
+	"ff:allium_tall": {
+		"sound": "grass"
+	},
+	"ff:allium_large": {
+		"sound": "grass"
+	},
+	"ff:allium_short": {
+		"sound": "grass"
+	},
+	"ff:poppy_tall": {
+		"sound": "grass"
+	},
+	"ff:poppy_large": {
+		"sound": "grass"
+	},
+	"ff:poppy_short": {
+		"sound": "grass"
+	},
+	"ff:lily_valley_tall": {
+		"sound": "grass"
+	},
+	"ff:lily_valley_large": {
+		"sound": "grass"
+	},
+	"ff:lily_valley_short": {
+		"sound": "grass"
+	},
+	"ff:white_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:white_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:white_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:red_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:red_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:red_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:pink_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:pink_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:pink_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:orange_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:orange_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:orange_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:yellow_tulip": {
+		"sound": "grass"
+	},
+	"ff:yellow_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:yellow_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:yellow_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:purple_tulip": {
+		"sound": "grass"
+	},
+	"ff:purple_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:purple_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:purple_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:green_tulip": {
+		"sound": "grass"
+	},
+	"ff:green_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:green_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:green_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:blue_tulip": {
+		"sound": "grass"
+	},
+	"ff:blue_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:blue_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:blue_tulip_short": {
+		"sound": "grass"
+	},
+	"ff:oxeye_daisy_tall": {
+		"sound": "grass"
+	},
+	"ff:oxeye_daisy_large": {
+		"sound": "grass"
+	},
+	"ff:oxeye_daisy_short": {
+		"sound": "grass"
 	}
 }

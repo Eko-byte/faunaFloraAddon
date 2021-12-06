@@ -18,7 +18,9 @@
                             "minecraft:moss_block",
                             "azalea_leaves_flowered",
                             "azalea_leaves",
-                            "minecraft:dirt_with_roots"
+                            "minecraft:dirt_with_roots",
+                            "azalea",
+                            "flowering_azalea"
                         ]
                     }
                 ]
