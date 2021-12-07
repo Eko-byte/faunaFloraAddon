@@ -412,5 +412,44 @@
 	},
 	"ff:oxeye_daisy_short": {
 		"sound": "grass"
+	},
+	"ff:blue_orchid": {
+		"sound": "grass"
+	},
+	"ff:blue_orchid_tall": {
+		"sound": "grass"
+	},
+	"ff:blue_orchid_large": {
+		"sound": "grass"
+	},
+	"ff:blue_orchid_short": {
+		"sound": "grass"
+	},
+	"ff:purple_orchid_tall": {
+		"sound": "grass"
+	},
+	"ff:purple_orchid_large": {
+		"sound": "grass"
+	},
+	"ff:purple_orchid_short": {
+		"sound": "grass"
+	},
+	"ff:azure_bluet_tall": {
+		"sound": "grass"
+	},
+	"ff:azure_bluet_large": {
+		"sound": "grass"
+	},
+	"ff:azure_bluet_short": {
+		"sound": "grass"
+	},
+	"ff:cornflower_tall": {
+		"sound": "grass"
+	},
+	"ff:cornflower_large": {
+		"sound": "grass"
+	},
+	"ff:cornflower_short": {
+		"sound": "grass"
 	}
 }

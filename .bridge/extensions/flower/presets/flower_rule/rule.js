@@ -105,8 +105,8 @@ module.exports = async ({ createFile, models }) => {
   function biomeFilter(biome) {
     return {
       test: "has_biome_tag",
-      operator: biome,
-      value: "==",
+      operator: "==",
+      value: biome,
     };
   }
 

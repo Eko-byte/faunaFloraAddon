@@ -413,6 +413,42 @@
 		},
 		"oxeye_daisy_short": {
 			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_short"
+		},
+		"blue_orchid_tall": {
+			"textures": "textures/blocks/blue_orchid/blue_orchid_tall"
+		},
+		"blue_orchid_large": {
+			"textures": "textures/blocks/blue_orchid/blue_orchid_large"
+		},
+		"blue_orchid_short": {
+			"textures": "textures/blocks/blue_orchid/blue_orchid_short"
+		},
+		"purple_orchid_tall": {
+			"textures": "textures/blocks/purple_orchid/purple_orchid_tall"
+		},
+		"purple_orchid_large": {
+			"textures": "textures/blocks/purple_orchid/purple_orchid_large"
+		},
+		"purple_orchid_short": {
+			"textures": "textures/blocks/purple_orchid/purple_orchid_short"
+		},
+		"azure_bluet_tall": {
+			"textures": "textures/blocks/azure_bluet/azure_bluet_tall"
+		},
+		"azure_bluet_large": {
+			"textures": "textures/blocks/azure_bluet/azure_bluet_large"
+		},
+		"azure_bluet_short": {
+			"textures": "textures/blocks/azure_bluet/azure_bluet_short"
+		},
+		"cornflower_tall": {
+			"textures": "textures/blocks/cornflower/cornflower_tall"
+		},
+		"cornflower_large": {
+			"textures": "textures/blocks/cornflower/cornflower_large"
+		},
+		"cornflower_short": {
+			"textures": "textures/blocks/cornflower/cornflower_short"
 		}
 	}
 }

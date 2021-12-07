@@ -8,6 +8,6 @@
       "name": "ff:wither_rose_large"
     },
     "enforce_survivability_rules": true,
-    "enforce_placement_rules": false
+    "enforce_placement_rules": true
   }
 }

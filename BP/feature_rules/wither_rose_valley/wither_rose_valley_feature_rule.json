@@ -1,50 +1,38 @@
 {
-    "format_version": "1.13.0",
-    "minecraft:feature_rules": {
-        "description": {
-            "identifier": "ff:wither_rose_valley_feature_rule",
-            "places_feature": "ff:wither_rose_valley_cluster_feature"
-        },
-        "conditions": {
-            "placement_pass": "surface_pass",
-            "minecraft:biome_filter": [
-                {
-                    "any_of": [
-                        {
-                            "test": "has_biome_tag",
-                            "operator": "soulsand_valley",
-                            "value": "=="
-                        }
-                    ]
-                }
-            ]
-        },
-        "distribution": {
-            "iterations": 40,
-            "scatter_chance": {
-                "numerator": 1,
-                "denominator": 5
-            },
-            "x": {
-                "distribution": "uniform",
-                "extent": [
-                    -8,
-                    8
-                ]
-            },
-            "y": {
-                "extent": [
-                    0,
-                    128
-                ]
-            },
-            "z": {
-                "distribution": "uniform",
-                "extent": [
-                    -8,
-                    8
-                ]
-            }
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "ff:wither_rose_valley_feature_rule",
+      "places_feature": "ff:wither_rose_valley_cluster_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "soulsand_valley"
         }
+      ]
+    },
+    "distribution": {
+      "iterations": 40,
+      "scatter_chance": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "x": {
+        "distribution": "uniform",
+        "extent": [-8, 8]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [0, 127]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [-8, 8]
+      }
     }
+  }
 }
