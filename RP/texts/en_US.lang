@@ -1,4 +1,5 @@
 item.ff:azalea_flower_item=Azalea
+item.ff:lotus_flower_item=Lotus Flower
 item.ff:hibiscus_item=Hibiscus
 item.ff:carnation_item=Carnation
 item.ff:marigold_item=Marigold
@@ -155,3 +156,7 @@ item.ff:azure_bluet_short_item=Small Azure Bluet Bush
 item.ff:cornflower_tall_item=Cornflower Bush
 item.ff:cornflower_large_item=Large Cornflower Bush
 item.ff:cornflower_short_item=Small Cornflower Bush
+item.ff:queen_tulip_item=Queen of The Night Tulip
+item.ff:queen_tulip_tall_item=Queen of The Night Tulip Bush
+item.ff:queen_tulip_large_item=Large Queen of The Night Tulip Bush
+item.ff:queen_tulip_short_item=Small Queen of The Night Tulip Bush

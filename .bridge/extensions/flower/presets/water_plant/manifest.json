@@ -1,0 +1,113 @@
+{
+  "name": "ABC Water Plant",
+  "icon": "mdi-pickaxe",
+  "description": "Creates Custom Water Plant (lily pad)",
+  "category": "fileType.block",
+  "targetVersion": [
+    ">=",
+    "1.17.0"
+  ],
+  "packTypes": [
+    "behaviorPack",
+    "resourcePack"
+  ],
+  "fields": [
+    [
+      "Plant Name (Lowercase)",
+      "IDENTIFIER",
+      {
+        "validate": [
+          "required",
+          "alphanumeric",
+          "lowercase"
+        ]
+      }
+    ],
+    [
+      "Display Name",
+      "IDENTIFIER_NAME",
+      {
+        "validate": [
+          "required"
+        ]
+      }
+    ]
+  ],
+  "createFiles": [
+    [
+      "block.json",
+      "BP/Blocks/{{IDENTIFIER}}/{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ],
+    [
+      "item.json",
+      "BP/Items/{{IDENTIFIER}}/{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ],
+    [
+      "loot.json",
+      "BP/loot_tables/blocks/{{IDENTIFIER}}/{{IDENTIFIER}}.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ],
+    [
+      "feature.json",
+      "BP/features/{{IDENTIFIER}}_feature.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ]
+  ],
+  "expandFiles": [
+    [
+      "en_US.lang",
+      "RP/texts/en_US.lang",
+      {
+        "inject": [
+          "IDENTIFIER",
+          "IDENTIFIER_NAME"
+        ]
+      }
+    ],
+    [
+      "blocks.json",
+      "RP/blocks.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ],
+    [
+      "terrain_texture.json",
+      "RP/textures/terrain_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ],
+    [
+      "item_texture.json",
+      "RP/textures/item_texture.json",
+      {
+        "inject": [
+          "IDENTIFIER"
+        ]
+      }
+    ]
+  ]
+}

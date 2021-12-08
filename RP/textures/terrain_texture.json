@@ -3,6 +3,9 @@
 		"nothing": {
 			"textures": "textures/blocks/nothing"
 		},
+		"lotus_flower": {
+			"textures": "textures/blocks/lotus_flower/lotus_flower"
+		},
 		"azalea_flower": {
 			"textures": "textures/blocks/azalea/azalea_flower"
 		},
@@ -449,6 +452,15 @@
 		},
 		"cornflower_short": {
 			"textures": "textures/blocks/cornflower/cornflower_short"
+		},
+		"queen_tulip_tall": {
+			"textures": "textures/blocks/queen_tulip/queen_tulip_tall"
+		},
+		"queen_tulip_large": {
+			"textures": "textures/blocks/queen_tulip/queen_tulip_large"
+		},
+		"queen_tulip_short": {
+			"textures": "textures/blocks/queen_tulip/queen_tulip_short"
 		}
 	}
 }

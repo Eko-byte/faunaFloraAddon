@@ -2,6 +2,9 @@
 	"ff:azalea_flower": {
 		"sound": "grass"
 	},
+	"ff:lotus_flower": {
+		"sound": "grass"
+	},
 	"ff:hibiscus": {
 		"sound": "grass"
 	},
@@ -450,6 +453,15 @@
 		"sound": "grass"
 	},
 	"ff:cornflower_short": {
+		"sound": "grass"
+	},
+	"ff:queen_tulip_tall": {
+		"sound": "grass"
+	},
+	"ff:queen_tulip_large": {
+		"sound": "grass"
+	},
+	"ff:queen_tulip_short": {
 		"sound": "grass"
 	}
 }

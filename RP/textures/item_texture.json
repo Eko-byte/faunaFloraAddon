@@ -3,6 +3,9 @@
 		"azalea_flower": {
 			"textures": "textures/blocks/azalea/azalea_flower"
 		},
+		"lotus_flower": {
+			"textures": "textures/items/lotus_flower/lotus_flower"
+		},
 		"hibiscus": {
 			"textures": "textures/blocks/hibiscus/hibiscus"
 		},
@@ -446,6 +449,15 @@
 		},
 		"cornflower_short": {
 			"textures": "textures/blocks/cornflower/cornflower_short"
+		},
+		"queen_tulip_tall": {
+			"textures": "textures/items/queen_tulip/queen_tulip_tall"
+		},
+		"queen_tulip_large": {
+			"textures": "textures/items/queen_tulip/queen_tulip_large"
+		},
+		"queen_tulip_short": {
+			"textures": "textures/blocks/queen_tulip/queen_tulip_short"
 		}
 	}
 }
