@@ -14,10 +14,10 @@ module.exports = async ({ createFile, models }) => {
   var rarity = RARITY;
 
   if (CLUSTER) {
-    var feature = `ff:${IDENTIFIER}_cluster_feature`;
+    var feature = `ff:${IDENTIFIER}/${IDENTIFIER}_snap_to_surface_feature`;
   }
   if (!CLUSTER) {
-    var feature = `ff:${IDENTIFIER}_feature`;
+    var feature = `ff:${IDENTIFIER}/${IDENTIFIER}_feature`;
   }
   if (CLUSTER) {
     var patchSize = PATCH_SIZE;
@@ -26,22 +26,40 @@ module.exports = async ({ createFile, models }) => {
       format_version: "1.13.0",
       "minecraft:weighted_random_feature": {
         description: {
-          identifier: `ff:${IDENTIFIER}_flower_feature`,
+          identifier: `ff:${IDENTIFIER}/${IDENTIFIER}_flower_feature`,
         },
         features: [FLOWERS],
       },
     };
+    var snapData = {
+      format_version: "1.16.0",
+
+      "minecraft:snap_to_surface_feature": {
+        description: {
+          identifier: `ff:${IDENTIFIER}/${IDENTIFIER}_snap_to_surface_feature`,
+        },
+
+        feature_to_snap: `ff:${IDENTIFIER}/${IDENTIFIER}_cluster_feature`,
+
+        surface: "floor",
+        vertical_search_range: 12,
+      },
+    };
     await createFile(
-      `BP/features/${IDENTIFIER}_flower_feature.json`,
+      `BP/features/${IDENTIFIER}/${IDENTIFIER}_snap_to_surface_feature.json`,
+      JSON.stringify(patchData)
+    );
+    await createFile(
+      `BP/features/${IDENTIFIER}/${IDENTIFIER}_flower_feature.json`,
       JSON.stringify(patchData)
     );
     var scatterData = {
       format_version: "1.13.0",
       "minecraft:scatter_feature": {
         description: {
-          identifier: `ff:${IDENTIFIER}_cluster_feature`,
+          identifier: `ff:${IDENTIFIER}/${IDENTIFIER}_cluster_feature`,
         },
-        places_feature: `ff:${IDENTIFIER}_flower_feature`,
+        places_feature: `ff:${IDENTIFIER}/${IDENTIFIER}_flower_feature`,
         iterations: patchSize,
         scatter_chance: patchScatterChance,
         x: {
@@ -57,10 +75,9 @@ module.exports = async ({ createFile, models }) => {
     };
 
     await createFile(
-      `BP/features/${IDENTIFIER}_cluster_feature.json`,
+      `BP/features/${IDENTIFIER}/${IDENTIFIER}_cluster_feature.json`,
       JSON.stringify(scatterData)
     );
-    
   }
 
   function createRule(type, biomes, rarity, feature) {
@@ -98,7 +115,7 @@ module.exports = async ({ createFile, models }) => {
         },
       },
     };
-    biomes.forEach(v => path.push(biomeFilter(v)));
+    biomes.forEach((v) => path.push(biomeFilter(v)));
     return rule;
   }
 
@@ -114,5 +131,4 @@ module.exports = async ({ createFile, models }) => {
     `BP/feature_rules/${IDENTIFIER}/${IDENTIFIER}_feature_rule.json`,
     JSON.stringify(createRule(type, biomes, rarity, feature))
   );
-
 };

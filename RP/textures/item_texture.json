@@ -458,6 +458,15 @@
 		},
 		"queen_tulip_short": {
 			"textures": "textures/blocks/queen_tulip/queen_tulip_short"
+		},
+		"petunia_tall": {
+			"textures": "textures/items/petunia/petunia_tall"
+		},
+		"petunia_large": {
+			"textures": "textures/items/petunia/petunia_large"
+		},
+		"petunia_short": {
+			"textures": "textures/blocks/petunia/petunia_short"
 		}
 	}
 }

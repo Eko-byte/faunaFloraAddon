@@ -654,7 +654,7 @@ module.exports = async ({ createFile, expandFile, models }) => {
       "format_version": "1.13.0",
       "minecraft:single_block_feature": {
         "description": {
-          "identifier": `ff:${type}_feature`
+          "identifier": `ff:${IDENTIFIER}/${type}_feature`
         },
         "places_block": {
           "name": `ff:${type}`
@@ -665,6 +665,6 @@ module.exports = async ({ createFile, expandFile, models }) => {
     };
     await createFile(`BP/loot_tables/blocks/${IDENTIFIER}/${type}.json`, JSON.stringify(lootData));
     await createFile(`BP/items/${IDENTIFIER}/${type}.json`, JSON.stringify(itemData));
-    await createFile(`BP/features/${type}_feature.json`, JSON.stringify(featureData));
+    await createFile(`BP/features/${IDENTIFIER}/${type}_feature.json`, JSON.stringify(featureData));
   }
 };

@@ -463,5 +463,14 @@
 	},
 	"ff:queen_tulip_short": {
 		"sound": "grass"
+	},
+	"ff:petunia_tall": {
+		"sound": "grass"
+	},
+	"ff:petunia_large": {
+		"sound": "grass"
+	},
+	"ff:petunia_short": {
+		"sound": "grass"
 	}
 }
