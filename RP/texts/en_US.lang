@@ -163,3 +163,5 @@ item.ff:petunia_item=Petunia
 item.ff:petunia_tall_item=Petunia Bush
 item.ff:petunia_large_item=Large Petunia Bush
 item.ff:petunia_short_item=Small Petunia Bush
+
+tile.ff:large_flower_pot.name=(WP) Large Flower Pot

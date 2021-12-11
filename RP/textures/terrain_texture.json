@@ -1,475 +1,529 @@
 {
-	"texture_data": {
-		"nothing": {
-			"textures": "textures/blocks/nothing"
-		},
-		"lotus_flower": {
-			"textures": "textures/blocks/lotus_flower/lotus_flower"
-		},
-		"azalea_flower": {
-			"textures": "textures/blocks/azalea/azalea_flower"
-		},
-		"hibiscus": {
-			"textures": "textures/blocks/hibiscus/hibiscus"
-		},
-		"carnation": {
-			"textures": "textures/blocks/carnation/carnation"
-		},
-		"marigold": {
-			"textures": "textures/blocks/marigold/marigold"
-		},
-		"marigold_tall": {
-			"textures": "textures/blocks/marigold/marigold_tall"
-		},
-		"marigold_large": {
-			"textures": "textures/blocks/marigold/marigold_large"
-		},
-		"tiger_lily": {
-			"textures": "textures/blocks/tiger_lily/tiger_lily"
-		},
-		"gold_rose": {
-			"textures": "textures/blocks/gold_rose/gold_rose"
-		},
-		"gold_rose_tall": {
-			"textures": "textures/blocks/gold_rose/gold_rose_tall"
-		},
-		"gold_rose_large": {
-			"textures": "textures/blocks/gold_rose/gold_rose_large"
-		},
-		"gold_rose_short": {
-			"textures": "textures/blocks/gold_rose/gold_rose_short"
-		},
-		"tiger_lily_tall": {
-			"textures": "textures/blocks/tiger_lily/tiger_lily_tall"
-		},
-		"tiger_lily_large": {
-			"textures": "textures/blocks/tiger_lily/tiger_lily_large"
-		},
-		"rose": {
-			"textures": "textures/blocks/rose/rose"
-		},
-		"rose_large": {
-			"textures": "textures/blocks/rose/rose_large"
-		},
-		"rose_short": {
-			"textures": "textures/blocks/rose/rose_short"
-		},
-		"daffodil": {
-			"textures": "textures/blocks/daffodil/daffodil"
-		},
-		"angels_trumpet": {
-			"textures": "textures/blocks/angels_trumpet/angels_trumpet"
-		},
-		"dandelion_tall": {
-			"textures": "textures/blocks/dandelion/dandelion_tall"
-		},
-		"dandelion_large": {
-			"textures": "textures/blocks/dandelion/dandelion_large"
-		},
-		"dandelion_short": {
-			"textures": "textures/blocks/dandelion/dandelion_short"
-		},
-		"wither_rose_tall": {
-			"textures": "textures/blocks/wither_rose/wither_rose_tall"
-		},
-		"wither_rose_large": {
-			"textures": "textures/blocks/wither_rose/wither_rose_large"
-		},
-		"wither_rose_short": {
-			"textures": "textures/blocks/wither_rose/wither_rose_short"
-		},
-		"buttercup": {
-			"textures": "textures/blocks/buttercup/buttercup"
-		},
-		"buttercup_tall": {
-			"textures": "textures/blocks/buttercup/buttercup_tall"
-		},
-		"buttercup_large": {
-			"textures": "textures/blocks/buttercup/buttercup_large"
-		},
-		"anemone": {
-			"textures": "textures/blocks/anemone/anemone"
-		},
-		"pink_bleeding_heart": {
-			"textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart"
-		},
-		"pink_bleeding_heart_tall": {
-			"textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart_tall"
-		},
-		"pink_bleeding_heart_large": {
-			"textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart_large"
-		},
-		"pink_rose": {
-			"textures": "textures/blocks/pink_rose/pink_rose"
-		},
-		"pink_rose_tall": {
-			"textures": "textures/blocks/pink_rose/pink_rose_tall"
-		},
-		"pink_rose_large": {
-			"textures": "textures/blocks/pink_rose/pink_rose_large"
-		},
-		"pink_rose_short": {
-			"textures": "textures/blocks/pink_rose/pink_rose_short"
-		},
-		"petunia": {
-			"textures": "textures/blocks/petunia/petunia"
-		},
-		"periwinkle": {
-			"textures": "textures/blocks/periwinkle/periwinkle"
-		},
-		"purple_orchid": {
-			"textures": "textures/blocks/purple_orchid/purple_orchid"
-		},
-		"hemlock": {
-			"textures": "textures/blocks/hemlock/hemlock"
-		},
-		"chocolate_cosmos": {
-			"textures": "textures/blocks/chocolate_cosmos/chocolate_cosmos"
-		},
-		"queen_tulip": {
-			"textures": "textures/blocks/queen_tulip/queen_tulip"
-		},
-		"snapdragon": {
-			"textures": "textures/blocks/snapdragon/snapdragon"
-		},
-		"snapdragon_tall": {
-			"textures": "textures/blocks/snapdragon/snapdragon_tall"
-		},
-		"foxglove": {
-			"textures": "textures/blocks/foxglove/foxglove"
-		},
-		"foxglove_tall": {
-			"textures": "textures/blocks/foxglove/foxglove_tall"
-		},
-		"wolfsbane": {
-			"textures": "textures/blocks/wolfsbane/wolfsbane"
-		},
-		"wolfsbane_tall": {
-			"textures": "textures/blocks/wolfsbane/wolfsbane_tall"
-		},
-		"gardenia": {
-			"textures": "textures/blocks/gardenia/gardenia"
-		},
-		"gardenia_tall": {
-			"textures": "textures/blocks/gardenia/gardenia_tall"
-		},
-		"grieving_rose": {
-			"textures": "textures/blocks/grieving_rose/grieving_rose"
-		},
-		"grieving_rose_tall": {
-			"textures": "textures/blocks/grieving_rose/grieving_rose_tall"
-		},
-		"grieving_rose_large": {
-			"textures": "textures/blocks/grieving_rose/grieving_rose_large"
-		},
-		"grieving_rose_short": {
-			"textures": "textures/blocks/grieving_rose/grieving_rose_short"
-		},
-		"corrupted_rose": {
-			"textures": "textures/blocks/corrupted_rose/corrupted_rose"
-		},
-		"corrupted_rose_tall": {
-			"textures": "textures/blocks/corrupted_rose/corrupted_rose_tall"
-		},
-		"corrupted_rose_large": {
-			"textures": "textures/blocks/corrupted_rose/corrupted_rose_large"
-		},
-		"corrupted_rose_short": {
-			"textures": "textures/blocks/corrupted_rose/corrupted_rose_short"
-		},
-		"cyan_rose": {
-			"textures": "textures/blocks/cyan_rose/cyan_rose"
-		},
-		"cyan_rose_tall": {
-			"textures": "textures/blocks/cyan_rose/cyan_rose_tall"
-		},
-		"cyan_rose_large": {
-			"textures": "textures/blocks/cyan_rose/cyan_rose_large"
-		},
-		"cyan_rose_short": {
-			"textures": "textures/blocks/cyan_rose/cyan_rose_short"
-		},
-		"white_rose": {
-			"textures": "textures/blocks/white_rose/white_rose"
-		},
-		"white_rose_tall": {
-			"textures": "textures/blocks/white_rose/white_rose_tall"
-		},
-		"white_rose_large": {
-			"textures": "textures/blocks/white_rose/white_rose_large"
-		},
-		"white_rose_short": {
-			"textures": "textures/blocks/white_rose/white_rose_short"
-		},
-		"blue_bleeding_heart": {
-			"textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart"
-		},
-		"blue_bleeding_heart_tall": {
-			"textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart_tall"
-		},
-		"blue_bleeding_heart_large": {
-			"textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart_large"
-		},
-		"white_bleeding_heart": {
-			"textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart"
-		},
-		"white_bleeding_heart_tall": {
-			"textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart_tall"
-		},
-		"white_bleeding_heart_large": {
-			"textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart_large"
-		},
-		"black_bleeding_heart": {
-			"textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart"
-		},
-		"black_bleeding_heart_tall": {
-			"textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart_tall"
-		},
-		"black_bleeding_heart_large": {
-			"textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart_large"
-		},
-		"lavender": {
-			"textures": "textures/blocks/lavender/lavender"
-		},
-		"lavender_tall": {
-			"textures": "textures/blocks/lavender/lavender_tall"
-		},
-		"lavender_large": {
-			"textures": "textures/blocks/lavender/lavender_large"
-		},
-		"grieving_lavender": {
-			"textures": "textures/blocks/grieving_lavender/grieving_lavender"
-		},
-		"grieving_lavender_tall": {
-			"textures": "textures/blocks/grieving_lavender/grieving_lavender_tall"
-		},
-		"grieving_lavender_large": {
-			"textures": "textures/blocks/grieving_lavender/grieving_lavender_large"
-		},
-		"bluebell": {
-			"textures": "textures/blocks/bluebell/bluebell"
-		},
-		"bluebell_tall": {
-			"textures": "textures/blocks/bluebell/bluebell_tall"
-		},
-		"bluebell_large": {
-			"textures": "textures/blocks/bluebell/bluebell_large"
-		},
-		"corrupted_bluebell": {
-			"textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell"
-		},
-		"corrupted_bluebell_tall": {
-			"textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell_tall"
-		},
-		"corrupted_bluebell_large": {
-			"textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell_large"
-		},
-		"sunflower": {
-			"textures": "textures/blocks/sunflower/sunflower"
-		},
-		"sunflower_large": {
-			"textures": "textures/blocks/sunflower/sunflower_large"
-		},
-		"lilac": {
-			"textures": "textures/blocks/lilac/lilac"
-		},
-		"lilac_large": {
-			"textures": "textures/blocks/lilac/lilac_large"
-		},
-		"peony": {
-			"textures": "textures/blocks/peony/peony"
-		},
-		"peony_large": {
-			"textures": "textures/blocks/peony/peony_large"
-		},
-		"peony_short": {
-			"textures": "textures/blocks/peony/peony_short"
-		},
-		"blue_dragon_rose": {
-			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose"
-		},
-		"blue_dragon_rose_tall": {
-			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_tall"
-		},
-		"blue_dragon_rose_large": {
-			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_large"
-		},
-		"blue_dragon_rose_short": {
-			"textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_short"
-		},
-		"allium_tall": {
-			"textures": "textures/blocks/allium/allium_tall"
-		},
-		"allium_large": {
-			"textures": "textures/blocks/allium/allium_large"
-		},
-		"allium_short": {
-			"textures": "textures/blocks/allium/allium_short"
-		},
-		"poppy_tall": {
-			"textures": "textures/blocks/poppy/poppy_tall"
-		},
-		"poppy_large": {
-			"textures": "textures/blocks/poppy/poppy_large"
-		},
-		"poppy_short": {
-			"textures": "textures/blocks/poppy/poppy_short"
-		},
-		"lily_valley_tall": {
-			"textures": "textures/blocks/lily_valley/lily_valley_tall"
-		},
-		"lily_valley_large": {
-			"textures": "textures/blocks/lily_valley/lily_valley_large"
-		},
-		"lily_valley_short": {
-			"textures": "textures/blocks/lily_valley/lily_valley_short"
-		},
-		"white_tulip_tall": {
-			"textures": "textures/blocks/white_tulip/white_tulip_tall"
-		},
-		"white_tulip_large": {
-			"textures": "textures/blocks/white_tulip/white_tulip_large"
-		},
-		"white_tulip_short": {
-			"textures": "textures/blocks/white_tulip/white_tulip_short"
-		},
-		"red_tulip_tall": {
-			"textures": "textures/blocks/red_tulip/red_tulip_tall"
-		},
-		"red_tulip_large": {
-			"textures": "textures/blocks/red_tulip/red_tulip_large"
-		},
-		"red_tulip_short": {
-			"textures": "textures/blocks/red_tulip/red_tulip_short"
-		},
-		"pink_tulip_tall": {
-			"textures": "textures/blocks/pink_tulip/pink_tulip_tall"
-		},
-		"pink_tulip_large": {
-			"textures": "textures/blocks/pink_tulip/pink_tulip_large"
-		},
-		"pink_tulip_short": {
-			"textures": "textures/blocks/pink_tulip/pink_tulip_short"
-		},
-		"orange_tulip_tall": {
-			"textures": "textures/blocks/orange_tulip/orange_tulip_tall"
-		},
-		"orange_tulip_large": {
-			"textures": "textures/blocks/orange_tulip/orange_tulip_large"
-		},
-		"orange_tulip_short": {
-			"textures": "textures/blocks/orange_tulip/orange_tulip_short"
-		},
-		"yellow_tulip": {
-			"textures": "textures/blocks/yellow_tulip/yellow_tulip"
-		},
-		"yellow_tulip_tall": {
-			"textures": "textures/blocks/yellow_tulip/yellow_tulip_tall"
-		},
-		"yellow_tulip_large": {
-			"textures": "textures/blocks/yellow_tulip/yellow_tulip_large"
-		},
-		"yellow_tulip_short": {
-			"textures": "textures/blocks/yellow_tulip/yellow_tulip_short"
-		},
-		"purple_tulip": {
-			"textures": "textures/blocks/purple_tulip/purple_tulip"
-		},
-		"purple_tulip_tall": {
-			"textures": "textures/blocks/purple_tulip/purple_tulip_tall"
-		},
-		"purple_tulip_large": {
-			"textures": "textures/blocks/purple_tulip/purple_tulip_large"
-		},
-		"purple_tulip_short": {
-			"textures": "textures/blocks/purple_tulip/purple_tulip_short"
-		},
-		"green_tulip": {
-			"textures": "textures/blocks/green_tulip/green_tulip"
-		},
-		"green_tulip_tall": {
-			"textures": "textures/blocks/green_tulip/green_tulip_tall"
-		},
-		"green_tulip_large": {
-			"textures": "textures/blocks/green_tulip/green_tulip_large"
-		},
-		"green_tulip_short": {
-			"textures": "textures/blocks/green_tulip/green_tulip_short"
-		},
-		"blue_tulip": {
-			"textures": "textures/blocks/blue_tulip/blue_tulip"
-		},
-		"blue_tulip_tall": {
-			"textures": "textures/blocks/blue_tulip/blue_tulip_tall"
-		},
-		"blue_tulip_large": {
-			"textures": "textures/blocks/blue_tulip/blue_tulip_large"
-		},
-		"blue_tulip_short": {
-			"textures": "textures/blocks/blue_tulip/blue_tulip_short"
-		},
-		"oxeye_daisy_tall": {
-			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_tall"
-		},
-		"oxeye_daisy_large": {
-			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_large"
-		},
-		"oxeye_daisy_short": {
-			"textures": "textures/blocks/oxeye_daisy/oxeye_daisy_short"
-		},
-		"blue_orchid_tall": {
-			"textures": "textures/blocks/blue_orchid/blue_orchid_tall"
-		},
-		"blue_orchid_large": {
-			"textures": "textures/blocks/blue_orchid/blue_orchid_large"
-		},
-		"blue_orchid_short": {
-			"textures": "textures/blocks/blue_orchid/blue_orchid_short"
-		},
-		"purple_orchid_tall": {
-			"textures": "textures/blocks/purple_orchid/purple_orchid_tall"
-		},
-		"purple_orchid_large": {
-			"textures": "textures/blocks/purple_orchid/purple_orchid_large"
-		},
-		"purple_orchid_short": {
-			"textures": "textures/blocks/purple_orchid/purple_orchid_short"
-		},
-		"azure_bluet_tall": {
-			"textures": "textures/blocks/azure_bluet/azure_bluet_tall"
-		},
-		"azure_bluet_large": {
-			"textures": "textures/blocks/azure_bluet/azure_bluet_large"
-		},
-		"azure_bluet_short": {
-			"textures": "textures/blocks/azure_bluet/azure_bluet_short"
-		},
-		"cornflower_tall": {
-			"textures": "textures/blocks/cornflower/cornflower_tall"
-		},
-		"cornflower_large": {
-			"textures": "textures/blocks/cornflower/cornflower_large"
-		},
-		"cornflower_short": {
-			"textures": "textures/blocks/cornflower/cornflower_short"
-		},
-		"queen_tulip_tall": {
-			"textures": "textures/blocks/queen_tulip/queen_tulip_tall"
-		},
-		"queen_tulip_large": {
-			"textures": "textures/blocks/queen_tulip/queen_tulip_large"
-		},
-		"queen_tulip_short": {
-			"textures": "textures/blocks/queen_tulip/queen_tulip_short"
-		},
-		"petunia_tall": {
-			"textures": "textures/blocks/petunia/petunia_tall"
-		},
-		"petunia_large": {
-			"textures": "textures/blocks/petunia/petunia_large"
-		},
-		"petunia_short": {
-			"textures": "textures/blocks/petunia/petunia_short"
-		}
-	}
+  "texture_data": {
+    "dandelion": {
+      "textures": "textures/blocks/flower_dandelion"
+    },
+    "poppy": {
+      "textures": "textures/blocks/flower_rose"
+    },
+    "blue_orchid": {
+      "textures": "textures/blocks/flower_blue_orchid"
+    },
+    "allium": {
+      "textures": "textures/blocks/flower_allium"
+    },
+    "azure_bluet": {
+      "textures": "textures/blocks/flower_houstonia"
+    },
+    "red_tulip": {
+      "textures": "textures/blocks/flower_tulip_red"
+    },
+		"orange_tulip": {
+      "textures": "textures/blocks/flower_tulip_orange"
+    },
+    "white_tulip": {
+      "textures": "textures/blocks/flower_tulip_white"
+    },
+    "pink_tulip": {
+      "textures": "textures/blocks/flower_tulip_pink"
+    },
+    "oxeye_daisy": {
+      "textures": "textures/blocks/flower_oxeye_daisy"
+    },
+		"cornflower": {
+      "textures": "textures/blocks/flower_cornflower"
+    },
+		"lily_of_the_valley": {
+      "textures": "textures/blocks/flower_lily_of_the_valley"
+    },
+    "red_flower": {
+      "textures": [
+        "textures/blocks/flower_rose",
+        "textures/blocks/flower_blue_orchid",
+        "textures/blocks/flower_allium",
+        "textures/blocks/flower_houstonia",
+        "textures/blocks/flower_tulip_red",
+        "textures/blocks/flower_tulip_orange",
+        "textures/blocks/flower_tulip_white",
+        "textures/blocks/flower_tulip_pink",
+        "textures/blocks/flower_oxeye_daisy",
+        "textures/blocks/flower_cornflower",
+        "textures/blocks/flower_lily_of_the_valley"
+      ]
+    },
+    "large_flower_pot": {
+      "textures": "textures/blocks/large_flower_pot"
+    },
+    "nothing": {
+      "textures": "textures/blocks/nothing"
+    },
+    "lotus_flower": {
+      "textures": "textures/blocks/lotus_flower/lotus_flower"
+    },
+    "azalea_flower": {
+      "textures": "textures/blocks/azalea/azalea_flower"
+    },
+    "hibiscus": {
+      "textures": "textures/blocks/hibiscus/hibiscus"
+    },
+    "carnation": {
+      "textures": "textures/blocks/carnation/carnation"
+    },
+    "marigold": {
+      "textures": "textures/blocks/marigold/marigold"
+    },
+    "marigold_tall": {
+      "textures": "textures/blocks/marigold/marigold_tall"
+    },
+    "marigold_large": {
+      "textures": "textures/blocks/marigold/marigold_large"
+    },
+    "tiger_lily": {
+      "textures": "textures/blocks/tiger_lily/tiger_lily"
+    },
+    "gold_rose": {
+      "textures": "textures/blocks/gold_rose/gold_rose"
+    },
+    "gold_rose_tall": {
+      "textures": "textures/blocks/gold_rose/gold_rose_tall"
+    },
+    "gold_rose_large": {
+      "textures": "textures/blocks/gold_rose/gold_rose_large"
+    },
+    "gold_rose_short": {
+      "textures": "textures/blocks/gold_rose/gold_rose_short"
+    },
+    "tiger_lily_tall": {
+      "textures": "textures/blocks/tiger_lily/tiger_lily_tall"
+    },
+    "tiger_lily_large": {
+      "textures": "textures/blocks/tiger_lily/tiger_lily_large"
+    },
+    "rose": {
+      "textures": "textures/blocks/rose/rose"
+    },
+    "rose_large": {
+      "textures": "textures/blocks/rose/rose_large"
+    },
+    "rose_short": {
+      "textures": "textures/blocks/rose/rose_short"
+    },
+    "daffodil": {
+      "textures": "textures/blocks/daffodil/daffodil"
+    },
+    "angels_trumpet": {
+      "textures": "textures/blocks/angels_trumpet/angels_trumpet"
+    },
+    "dandelion_tall": {
+      "textures": "textures/blocks/dandelion/dandelion_tall"
+    },
+    "dandelion_large": {
+      "textures": "textures/blocks/dandelion/dandelion_large"
+    },
+    "dandelion_short": {
+      "textures": "textures/blocks/dandelion/dandelion_short"
+    },
+    "wither_rose_tall": {
+      "textures": "textures/blocks/wither_rose/wither_rose_tall"
+    },
+    "wither_rose_large": {
+      "textures": "textures/blocks/wither_rose/wither_rose_large"
+    },
+    "wither_rose_short": {
+      "textures": "textures/blocks/wither_rose/wither_rose_short"
+    },
+    "buttercup": {
+      "textures": "textures/blocks/buttercup/buttercup"
+    },
+    "buttercup_tall": {
+      "textures": "textures/blocks/buttercup/buttercup_tall"
+    },
+    "buttercup_large": {
+      "textures": "textures/blocks/buttercup/buttercup_large"
+    },
+    "anemone": {
+      "textures": "textures/blocks/anemone/anemone"
+    },
+    "pink_bleeding_heart": {
+      "textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart"
+    },
+    "pink_bleeding_heart_tall": {
+      "textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart_tall"
+    },
+    "pink_bleeding_heart_large": {
+      "textures": "textures/blocks/pink_bleeding_heart/pink_bleeding_heart_large"
+    },
+    "pink_rose": {
+      "textures": "textures/blocks/pink_rose/pink_rose"
+    },
+    "pink_rose_tall": {
+      "textures": "textures/blocks/pink_rose/pink_rose_tall"
+    },
+    "pink_rose_large": {
+      "textures": "textures/blocks/pink_rose/pink_rose_large"
+    },
+    "pink_rose_short": {
+      "textures": "textures/blocks/pink_rose/pink_rose_short"
+    },
+    "petunia": {
+      "textures": "textures/blocks/petunia/petunia"
+    },
+    "periwinkle": {
+      "textures": "textures/blocks/periwinkle/periwinkle"
+    },
+    "purple_orchid": {
+      "textures": "textures/blocks/purple_orchid/purple_orchid"
+    },
+    "hemlock": {
+      "textures": "textures/blocks/hemlock/hemlock"
+    },
+    "chocolate_cosmos": {
+      "textures": "textures/blocks/chocolate_cosmos/chocolate_cosmos"
+    },
+    "queen_tulip": {
+      "textures": "textures/blocks/queen_tulip/queen_tulip"
+    },
+    "snapdragon": {
+      "textures": "textures/blocks/snapdragon/snapdragon"
+    },
+    "snapdragon_tall": {
+      "textures": "textures/blocks/snapdragon/snapdragon_tall"
+    },
+    "foxglove": {
+      "textures": "textures/blocks/foxglove/foxglove"
+    },
+    "foxglove_tall": {
+      "textures": "textures/blocks/foxglove/foxglove_tall"
+    },
+    "wolfsbane": {
+      "textures": "textures/blocks/wolfsbane/wolfsbane"
+    },
+    "wolfsbane_tall": {
+      "textures": "textures/blocks/wolfsbane/wolfsbane_tall"
+    },
+    "gardenia": {
+      "textures": "textures/blocks/gardenia/gardenia"
+    },
+    "gardenia_tall": {
+      "textures": "textures/blocks/gardenia/gardenia_tall"
+    },
+    "grieving_rose": {
+      "textures": "textures/blocks/grieving_rose/grieving_rose"
+    },
+    "grieving_rose_tall": {
+      "textures": "textures/blocks/grieving_rose/grieving_rose_tall"
+    },
+    "grieving_rose_large": {
+      "textures": "textures/blocks/grieving_rose/grieving_rose_large"
+    },
+    "grieving_rose_short": {
+      "textures": "textures/blocks/grieving_rose/grieving_rose_short"
+    },
+    "corrupted_rose": {
+      "textures": "textures/blocks/corrupted_rose/corrupted_rose"
+    },
+    "corrupted_rose_tall": {
+      "textures": "textures/blocks/corrupted_rose/corrupted_rose_tall"
+    },
+    "corrupted_rose_large": {
+      "textures": "textures/blocks/corrupted_rose/corrupted_rose_large"
+    },
+    "corrupted_rose_short": {
+      "textures": "textures/blocks/corrupted_rose/corrupted_rose_short"
+    },
+    "cyan_rose": {
+      "textures": "textures/blocks/cyan_rose/cyan_rose"
+    },
+    "cyan_rose_tall": {
+      "textures": "textures/blocks/cyan_rose/cyan_rose_tall"
+    },
+    "cyan_rose_large": {
+      "textures": "textures/blocks/cyan_rose/cyan_rose_large"
+    },
+    "cyan_rose_short": {
+      "textures": "textures/blocks/cyan_rose/cyan_rose_short"
+    },
+    "white_rose": {
+      "textures": "textures/blocks/white_rose/white_rose"
+    },
+    "white_rose_tall": {
+      "textures": "textures/blocks/white_rose/white_rose_tall"
+    },
+    "white_rose_large": {
+      "textures": "textures/blocks/white_rose/white_rose_large"
+    },
+    "white_rose_short": {
+      "textures": "textures/blocks/white_rose/white_rose_short"
+    },
+    "blue_bleeding_heart": {
+      "textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart"
+    },
+    "blue_bleeding_heart_tall": {
+      "textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart_tall"
+    },
+    "blue_bleeding_heart_large": {
+      "textures": "textures/blocks/blue_bleeding_heart/blue_bleeding_heart_large"
+    },
+    "white_bleeding_heart": {
+      "textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart"
+    },
+    "white_bleeding_heart_tall": {
+      "textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart_tall"
+    },
+    "white_bleeding_heart_large": {
+      "textures": "textures/blocks/white_bleeding_heart/white_bleeding_heart_large"
+    },
+    "black_bleeding_heart": {
+      "textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart"
+    },
+    "black_bleeding_heart_tall": {
+      "textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart_tall"
+    },
+    "black_bleeding_heart_large": {
+      "textures": "textures/blocks/black_bleeding_heart/black_bleeding_heart_large"
+    },
+    "lavender": {
+      "textures": "textures/blocks/lavender/lavender"
+    },
+    "lavender_tall": {
+      "textures": "textures/blocks/lavender/lavender_tall"
+    },
+    "lavender_large": {
+      "textures": "textures/blocks/lavender/lavender_large"
+    },
+    "grieving_lavender": {
+      "textures": "textures/blocks/grieving_lavender/grieving_lavender"
+    },
+    "grieving_lavender_tall": {
+      "textures": "textures/blocks/grieving_lavender/grieving_lavender_tall"
+    },
+    "grieving_lavender_large": {
+      "textures": "textures/blocks/grieving_lavender/grieving_lavender_large"
+    },
+    "bluebell": {
+      "textures": "textures/blocks/bluebell/bluebell"
+    },
+    "bluebell_tall": {
+      "textures": "textures/blocks/bluebell/bluebell_tall"
+    },
+    "bluebell_large": {
+      "textures": "textures/blocks/bluebell/bluebell_large"
+    },
+    "corrupted_bluebell": {
+      "textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell"
+    },
+    "corrupted_bluebell_tall": {
+      "textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell_tall"
+    },
+    "corrupted_bluebell_large": {
+      "textures": "textures/blocks/corrupted_bluebell/corrupted_bluebell_large"
+    },
+    "sunflower": {
+      "textures": "textures/blocks/sunflower/sunflower"
+    },
+    "sunflower_large": {
+      "textures": "textures/blocks/sunflower/sunflower_large"
+    },
+    "lilac": {
+      "textures": "textures/blocks/lilac/lilac"
+    },
+    "lilac_large": {
+      "textures": "textures/blocks/lilac/lilac_large"
+    },
+    "peony": {
+      "textures": "textures/blocks/peony/peony"
+    },
+    "peony_large": {
+      "textures": "textures/blocks/peony/peony_large"
+    },
+    "peony_short": {
+      "textures": "textures/blocks/peony/peony_short"
+    },
+    "blue_dragon_rose": {
+      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose"
+    },
+    "blue_dragon_rose_tall": {
+      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_tall"
+    },
+    "blue_dragon_rose_large": {
+      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_large"
+    },
+    "blue_dragon_rose_short": {
+      "textures": "textures/blocks/blue_dragon_rose/blue_dragon_rose_short"
+    },
+    "allium_tall": {
+      "textures": "textures/blocks/allium/allium_tall"
+    },
+    "allium_large": {
+      "textures": "textures/blocks/allium/allium_large"
+    },
+    "allium_short": {
+      "textures": "textures/blocks/allium/allium_short"
+    },
+    "poppy_tall": {
+      "textures": "textures/blocks/poppy/poppy_tall"
+    },
+    "poppy_large": {
+      "textures": "textures/blocks/poppy/poppy_large"
+    },
+    "poppy_short": {
+      "textures": "textures/blocks/poppy/poppy_short"
+    },
+    "lily_valley_tall": {
+      "textures": "textures/blocks/lily_valley/lily_valley_tall"
+    },
+    "lily_valley_large": {
+      "textures": "textures/blocks/lily_valley/lily_valley_large"
+    },
+    "lily_valley_short": {
+      "textures": "textures/blocks/lily_valley/lily_valley_short"
+    },
+    "white_tulip_tall": {
+      "textures": "textures/blocks/white_tulip/white_tulip_tall"
+    },
+    "white_tulip_large": {
+      "textures": "textures/blocks/white_tulip/white_tulip_large"
+    },
+    "white_tulip_short": {
+      "textures": "textures/blocks/white_tulip/white_tulip_short"
+    },
+    "red_tulip_tall": {
+      "textures": "textures/blocks/red_tulip/red_tulip_tall"
+    },
+    "red_tulip_large": {
+      "textures": "textures/blocks/red_tulip/red_tulip_large"
+    },
+    "red_tulip_short": {
+      "textures": "textures/blocks/red_tulip/red_tulip_short"
+    },
+    "pink_tulip_tall": {
+      "textures": "textures/blocks/pink_tulip/pink_tulip_tall"
+    },
+    "pink_tulip_large": {
+      "textures": "textures/blocks/pink_tulip/pink_tulip_large"
+    },
+    "pink_tulip_short": {
+      "textures": "textures/blocks/pink_tulip/pink_tulip_short"
+    },
+    "orange_tulip_tall": {
+      "textures": "textures/blocks/orange_tulip/orange_tulip_tall"
+    },
+    "orange_tulip_large": {
+      "textures": "textures/blocks/orange_tulip/orange_tulip_large"
+    },
+    "orange_tulip_short": {
+      "textures": "textures/blocks/orange_tulip/orange_tulip_short"
+    },
+    "yellow_tulip": {
+      "textures": "textures/blocks/yellow_tulip/yellow_tulip"
+    },
+    "yellow_tulip_tall": {
+      "textures": "textures/blocks/yellow_tulip/yellow_tulip_tall"
+    },
+    "yellow_tulip_large": {
+      "textures": "textures/blocks/yellow_tulip/yellow_tulip_large"
+    },
+    "yellow_tulip_short": {
+      "textures": "textures/blocks/yellow_tulip/yellow_tulip_short"
+    },
+    "purple_tulip": {
+      "textures": "textures/blocks/purple_tulip/purple_tulip"
+    },
+    "purple_tulip_tall": {
+      "textures": "textures/blocks/purple_tulip/purple_tulip_tall"
+    },
+    "purple_tulip_large": {
+      "textures": "textures/blocks/purple_tulip/purple_tulip_large"
+    },
+    "purple_tulip_short": {
+      "textures": "textures/blocks/purple_tulip/purple_tulip_short"
+    },
+    "green_tulip": {
+      "textures": "textures/blocks/green_tulip/green_tulip"
+    },
+    "green_tulip_tall": {
+      "textures": "textures/blocks/green_tulip/green_tulip_tall"
+    },
+    "green_tulip_large": {
+      "textures": "textures/blocks/green_tulip/green_tulip_large"
+    },
+    "green_tulip_short": {
+      "textures": "textures/blocks/green_tulip/green_tulip_short"
+    },
+    "blue_tulip": {
+      "textures": "textures/blocks/blue_tulip/blue_tulip"
+    },
+    "blue_tulip_tall": {
+      "textures": "textures/blocks/blue_tulip/blue_tulip_tall"
+    },
+    "blue_tulip_large": {
+      "textures": "textures/blocks/blue_tulip/blue_tulip_large"
+    },
+    "blue_tulip_short": {
+      "textures": "textures/blocks/blue_tulip/blue_tulip_short"
+    },
+    "oxeye_daisy_tall": {
+      "textures": "textures/blocks/oxeye_daisy/oxeye_daisy_tall"
+    },
+    "oxeye_daisy_large": {
+      "textures": "textures/blocks/oxeye_daisy/oxeye_daisy_large"
+    },
+    "oxeye_daisy_short": {
+      "textures": "textures/blocks/oxeye_daisy/oxeye_daisy_short"
+    },
+    "blue_orchid_tall": {
+      "textures": "textures/blocks/blue_orchid/blue_orchid_tall"
+    },
+    "blue_orchid_large": {
+      "textures": "textures/blocks/blue_orchid/blue_orchid_large"
+    },
+    "blue_orchid_short": {
+      "textures": "textures/blocks/blue_orchid/blue_orchid_short"
+    },
+    "purple_orchid_tall": {
+      "textures": "textures/blocks/purple_orchid/purple_orchid_tall"
+    },
+    "purple_orchid_large": {
+      "textures": "textures/blocks/purple_orchid/purple_orchid_large"
+    },
+    "purple_orchid_short": {
+      "textures": "textures/blocks/purple_orchid/purple_orchid_short"
+    },
+    "azure_bluet_tall": {
+      "textures": "textures/blocks/azure_bluet/azure_bluet_tall"
+    },
+    "azure_bluet_large": {
+      "textures": "textures/blocks/azure_bluet/azure_bluet_large"
+    },
+    "azure_bluet_short": {
+      "textures": "textures/blocks/azure_bluet/azure_bluet_short"
+    },
+    "cornflower_tall": {
+      "textures": "textures/blocks/cornflower/cornflower_tall"
+    },
+    "cornflower_large": {
+      "textures": "textures/blocks/cornflower/cornflower_large"
+    },
+    "cornflower_short": {
+      "textures": "textures/blocks/cornflower/cornflower_short"
+    },
+    "queen_tulip_tall": {
+      "textures": "textures/blocks/queen_tulip/queen_tulip_tall"
+    },
+    "queen_tulip_large": {
+      "textures": "textures/blocks/queen_tulip/queen_tulip_large"
+    },
+    "queen_tulip_short": {
+      "textures": "textures/blocks/queen_tulip/queen_tulip_short"
+    },
+    "petunia_tall": {
+      "textures": "textures/blocks/petunia/petunia_tall"
+    },
+    "petunia_large": {
+      "textures": "textures/blocks/petunia/petunia_large"
+    },
+    "petunia_short": {
+      "textures": "textures/blocks/petunia/petunia_short"
+    }
+  }
 }

@@ -1,0 +1,1284 @@
+{
+  "format_version": "1.17.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ff:large_flower_pot",
+      "properties": {
+        "ff:direction": [0, 1, 2, 3, 4, 5, 6],
+        "ff:collision": [0, 1],
+        "ff:flower1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+        "ff:flower2": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('ff:flower1') == 1 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "poppy",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 2 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "poppy_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_property('ff:flower1') == 3 && q.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "allium",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 4 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "allium_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 5 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "anemone",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 6 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "angels_trumpet",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 7 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "azalea_flower",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 8 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "azure_bluet",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 9 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "azure_bluet_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 10 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "black_bleeding_heart",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 11 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "black_bleeding_heart_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 12 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_bleeding_heart",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 13 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_bleeding_heart_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 14 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_dragon_rose",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 15 && query.block_property('ff:flower2') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_dragon_rose_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 0 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_orchid",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 1 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_orchid_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 2 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_tulip",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 3 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "blue_tulip_short",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 4 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "bluebell",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 5 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "buttercup",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 6 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "carnation",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 7 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "chocolate_cosmos",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:flower1') == 7 && query.block_property('ff:flower2') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "render_method": "alpha_test",
+              "texture": "large_flower_pot",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "cornflower",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:direction') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_hanging",
+          "minecraft:pick_collision": {
+            "origin": [-6, 0, -6],
+            "size": [12, 16, 12]
+          },
+          "minecraft:entity_collision": false,
+          "tag:hanging": {},
+          "minecraft:on_placed": {
+            "event": "set_collision"
+          },
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_bottom"
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:collision')",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_hanging",
+          "minecraft:pick_collision": {
+            "origin": [-6, 8, -6],
+            "size": [12, 8, 12]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-6, 8, -6],
+            "size": [12, 8, 12]
+          },
+          "minecraft:material_instances": {
+            "flower_pot": {
+              "render_method": "alpha_test",
+              "texture": "nothing",
+              "face_dimming": true,
+              "ambient_occlusion": true
+            },
+            "flower": {
+              "render_method": "alpha_test",
+              "texture": "nothing",
+              "face_dimming": false,
+              "ambient_occlusion": false
+            }
+          },
+          "minecraft:on_player_destroyed": {
+            "event": "destroy_top"
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:direction') == 3",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_wall",
+          "minecraft:rotation": [0, -180, 0],
+          "minecraft:pick_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:direction') == 4",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_wall",
+          "minecraft:rotation": [0, 0, 0],
+          "minecraft:pick_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:direction') == 5",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_wall",
+          "minecraft:rotation": [0, -90, 0],
+          "minecraft:pick_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('ff:direction') == 6",
+        "components": {
+          "minecraft:geometry": "geometry.custom_flower_pot_wall",
+          "minecraft:rotation": [0, 90, 0],
+          "minecraft:pick_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          },
+          "minecraft:entity_collision": {
+            "origin": [-6, 4, -8],
+            "size": [12, 8, 12]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:ticking": {
+        "looping": false,
+        "range": [0, 0],
+        "on_tick": { "event": "update_collision" }
+      },
+      "minecraft:geometry": "geometry.custom_flower_pot",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "large_flower_pot",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        },
+        "flower_pot": {
+          "render_method": "alpha_test",
+          "texture": "large_flower_pot",
+          "face_dimming": true,
+          "ambient_occlusion": true
+        },
+        "flower": {
+          "render_method": "alpha_test",
+          "texture": "nothing",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:entity_collision": {
+        "origin": [-6, 0, -6],
+        "size": [12, 8, 12]
+      },
+      "minecraft:pick_collision": {
+        "origin": [-6, 0, -6],
+        "size": [12, 8, 12]
+      },
+      "minecraft:on_interact": {
+        "event": "update_flower"
+      },
+      "minecraft:block_light_emission": 1.0,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:creative_category": {
+        "group": "itemGroup.name.sndstone",
+        "category": "items"
+      },
+      "minecraft:on_player_placing": {
+        "event": "update_facing_direction"
+      }
+    },
+    "events": {
+      "update_facing_direction": {
+        "set_block_property": {
+          "ff:direction": "(query.cardinal_block_face_placed_on) + 1"
+        }
+      },
+      "set_collision": {
+        "set_block_at_pos": {
+          "block_offset": [0, -1, 0],
+          "block_type": "ff:large_flower_pot"
+        }
+      },
+      "destroy_top": {
+        "set_block_at_pos": {
+          "block_offset": [0, 1, 0],
+          "block_type": "air"
+        }
+      },
+      "destroy_bottom": {
+        "run_command": {
+          "command": ["fill ~ ~-1 ~ ~ ~-1 ~ air 0 destroy"]
+        }
+      },
+      "update_collision": {
+        "sequence": [
+          {
+            "condition": "q.block_neighbor_has_any_tag(0,1,0,'hanging')",
+            "set_block_property": {
+              "ff:collision": 1
+            }
+          }
+        ]
+      },
+      "update_flower": {
+        "sequence": [
+          {
+            "condition": "q.get_equipped_item_name('main_hand') == 'poppy'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'poppy_short_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name('main_hand') == 'allium'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'allium_short_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'anemone_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'angels_trumpet_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'azalea_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'azure_bluet_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'azure_bluet_short_item'",
+            "set_block_property": {
+              "ff:flower1": 9,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'black_bleeding_heart_item'",
+            "set_block_property": {
+              "ff:flower1": 10,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'black_bleeding_heart_short_item'",
+            "set_block_property": {
+              "ff:flower1": 11,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_bleeding_heart_item'",
+            "set_block_property": {
+              "ff:flower1": 12,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_bleeding_heart_short_item'",
+            "set_block_property": {
+              "ff:flower1": 13,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_dragon_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 14,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_dragon_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 15,
+              "ff:flower2": 0
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_orchid_item'",
+            "set_block_property": {
+              "ff:flower1": 0,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_orchid_short_item'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'blue_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'bluebell_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'buttercup_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'carnation_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'chocolate_cosmos_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'cornflower_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'cornflower_short_item'",
+            "set_block_property": {
+              "ff:flower1": 9,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'corrupted_bluebell_item'",
+            "set_block_property": {
+              "ff:flower1": 10,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'corrupted_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 11,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'corrupted_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 12,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'cyan_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 13,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'cyan_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 14,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'daffodil_item'",
+            "set_block_property": {
+              "ff:flower1": 15,
+              "ff:flower2": 1
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'dandelion_item'",
+            "set_block_property": {
+              "ff:flower1": 0,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'dandelion_short_item'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'foxglove_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'gardenia_item'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'gold_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'gold_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'green_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'green_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'grieving_lavender_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'grieving_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 9,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'grieving_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 10,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'hemlock_item'",
+            "set_block_property": {
+              "ff:flower1": 11,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'hibiscus_item'",
+            "set_block_property": {
+              "ff:flower1": 12,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'lavender_item'",
+            "set_block_property": {
+              "ff:flower1": 13,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'lilac_item'",
+            "set_block_property": {
+              "ff:flower1": 14,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'lily_valley_item'",
+            "set_block_property": {
+              "ff:flower1": 15,
+              "ff:flower2": 2
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'lily_valley_short_item'",
+            "set_block_property": {
+              "ff:flower1": 0,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'marigold_item'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'orange_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'orange_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'oxeye_daisy_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'oxeye_daisy_short_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'peony_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'peony_short_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'periwinkle_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'petunia_item'",
+            "set_block_property": {
+              "ff:flower1": 9,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'petunia_short_item'",
+            "set_block_property": {
+              "ff:flower1": 10,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_bleeding_heart_item'",
+            "set_block_property": {
+              "ff:flower1": 11,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_bleeding_heart_short_item'",
+            "set_block_property": {
+              "ff:flower1": 12,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 13,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 14,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 15,
+              "ff:flower2": 3
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'pink_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 0,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'purple_orchid_item'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'purple_orchid_short_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'purple_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'purple_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'queen_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'queen_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'red_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'red_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'rose_item'",
+            "set_block_property": {
+              "ff:flower1": 9,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 10,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'snapdragon_item'",
+            "set_block_property": {
+              "ff:flower1": 11,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'sunflower_item'",
+            "set_block_property": {
+              "ff:flower1": 12,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'tiger_lily_item'",
+            "set_block_property": {
+              "ff:flower1": 13,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_bleeding_heart_item'",
+            "set_block_property": {
+              "ff:flower1": 14,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_bleeding_heart_short_item'",
+            "set_block_property": {
+              "ff:flower1": 15,
+              "ff:flower2": 4
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 0,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 1,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 2,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'white_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 3,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'wither_rose_item'",
+            "set_block_property": {
+              "ff:flower1": 4,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'whither_rose_short_item'",
+            "set_block_property": {
+              "ff:flower1": 5,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'wolfsbane_item'",
+            "set_block_property": {
+              "ff:flower1": 6,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'yellow_tulip_item'",
+            "set_block_property": {
+              "ff:flower1": 7,
+              "ff:flower2": 5
+            }
+          },
+          {
+            "condition": "q.get_equipped_item_name == 'yellow_tulip_short_item'",
+            "set_block_property": {
+              "ff:flower1": 8,
+              "ff:flower2": 5
+            }
+          }
+        ]
+      }
+    }
+  }
+}
