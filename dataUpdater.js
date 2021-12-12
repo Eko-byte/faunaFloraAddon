@@ -157,7 +157,7 @@ function createJSON(flowerType) {
   fs.appendFileSync(
     `RP/blocks.json`,
     JSON.stringify({
-      ffFlowerTypeBoquet: {
+      [`${ffFlowerTypeBoquet}`]: {
         sound: "grass",
       },
     })
