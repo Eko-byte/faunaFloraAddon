@@ -1,12 +1,16 @@
 {
   "format_version": "1.16.100",
   "minecraft:block": {
-    "description": { "identifier": "nature:allium_boquet" },
+    "description": {
+      "identifier": "ff:allium_boquet"
+    },
     "components": {
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["up"],
+            "allowed_faces": [
+              "up"
+            ],
             "block_filter": [
               "minecraft:grass",
               "minecraft:dirt",
@@ -38,10 +42,14 @@
     },
     "events": {
       "fertilize_block": {
-        "spawn_loot": { "table": "loot_tables/blocks/allium_boquet.json" },
+        "spawn_loot": {
+          "table": "loot_tables/blocks/allium_boquet.json"
+        },
         "decrement_stack": {},
         "run_command": {
-          "command": ["particle minecraft:crop_growth_emitter ~ ~ ~"]
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
         }
       }
     }

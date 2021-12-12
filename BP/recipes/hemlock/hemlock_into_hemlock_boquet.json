@@ -1,0 +1,21 @@
+{
+  "format_version": 1.12,
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "ff:hemlock_into_hemlock_boquet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "ff:hemlock_item",
+        "count": 9
+      }
+    ],
+    "result": {
+      "item": "ff:hemlock_boquet_item",
+      "count": 1
+    }
+  }
+}

@@ -1,22 +1,29 @@
 var fs = require("fs");
 
-let flowers = JSON.parse(fs.readFileSync("data.json"))
-console.log(flowers)
+let flowers = JSON.parse(fs.readFileSync("data.json"));
+let blocksData = JSON.parse(fs.readFileSync("RP/blocks.json").toString());
+let textureData = JSON.parse(
+  fs.readFileSync("RP/textures/terrain_texture.json").toString()
+);
+let itemTextureData = JSON.parse(
+  fs.readFileSync("RP/textures/item_texture.json").toString()
+);
+let langData = fs.readFileSync("RP/texts/en_US.lang").toString();
 
-flowers.forEach((v) => createJSON(v));
+flowers.forEach(createJSON);
+
+function titleCase(str) {
+  var langString = str.replace(/_/g, " ").split(" ");
+  for (var i = 0; i < langString.length; i++) {
+    langString[i] =
+      langString[i].charAt(0).toUpperCase() + langString[i].substring(1);
+  }
+  return langString.join(" ");
+}
 
 function createJSON(flowerType) {
-  function titleCase(str) {
-    var splitStr = str.replace(/_/g, " ").split(" ");
-    for (var i = 0; i < splitStr.length; i++) {
-      splitStr[i] =
-        splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
-    }
-    return splitStr.join(" ");
-  }
-  var flowerTypeBoquet = flowerType + "boquet";
-  var ffFlowerTypeBoquet = "ff" + flowerType + "boquet";
-  var langName = titleCase(flowerType);
+  var flowerTypeBoquet = flowerType + "_boquet";
+  var ffFlowerTypeBoquet = "ff:" + flowerType + "_boquet";
   let blockData = {
     format_version: "1.16.100",
     "minecraft:block": {
@@ -101,7 +108,9 @@ function createJSON(flowerType) {
   let featureData = {
     format_version: "1.13.0",
     "minecraft:single_block_feature": {
-      description: { identifier: `ff:${flowerType}/${flowerType}_boquet_feature` },
+      description: {
+        identifier: `ff:${flowerType}/${flowerType}_boquet_feature`,
+      },
       places_block: { name: `ff:${flowerType}_boquet` },
       enforce_survivability_rules: true,
       enforce_placement_rules: true,
@@ -122,52 +131,69 @@ function createJSON(flowerType) {
       },
     ],
   };
-  let terrainData = {
-    texture_data: {
-      [`${flowerTypeBoquet}`]: {
-        textures: `textures/blocks/${flowerType}/${flowerTypeBoquet}`,
+  let recipeData = {
+    format_version: 1.12,
+    "minecraft:recipe_shapeless": {
+      description: {
+        identifier: `ff:${flowerType}_into_${flowerType}_boquet`,
       },
+      tags: ["crafting_table"],
+      ingredients: [{ item: `ff:${flowerType}_item`, count: 9 }],
+      result: { item: `ff:${flowerType}_boquet_item`, count: 1 },
     },
   };
-  let itemTextureData = {
-    texture_data: {
-      [`${flowerTypeBoquet}`]: {
-        textures: `textures/items/${flowerType}/${flowerTypeBoquet}`,
+  let recipeData2 = {
+    format_version: 1.12,
+    "minecraft:recipe_shapeless": {
+      description: {
+        identifier: `ff:${flowerType}_boquet_into_${flowerType}`,
       },
+      tags: ["crafting_table"],
+      ingredients: [{ item: `ff:${flowerType}_boquet_item`, count: 1 }],
+      result: { item: `ff:${flowerType}_item`, count: 9 },
     },
   };
-  let langData = `item.ff:${flowerType}_item=${langName} Boquet`;
+  fs.writeFileSync(
+    `BP/recipes/${flowerType}/${flowerType}_into_${flowerType}_boquet.json`,
+    JSON.stringify(recipeData, null, "  ")
+  );
+  fs.writeFileSync(
+    `BP/recipes/${flowerType}/${flowerType}_boquet_into_${flowerType}.json`,
+    JSON.stringify(recipeData2, null, "  ")
+  );
   fs.writeFileSync(
     `BP/blocks/${flowerType}/${flowerType}_boquet.json`,
-    JSON.stringify(blockData)
+    JSON.stringify(blockData, null, "  ")
   );
   fs.writeFileSync(
     `BP/items/${flowerType}/${flowerType}_boquet.json`,
-    JSON.stringify(itemData)
+    JSON.stringify(itemData, null, "  ")
   );
   fs.writeFileSync(
     `BP/features/${flowerType}/${flowerType}_boquet_feature.json`,
-    JSON.stringify(featureData)
+    JSON.stringify(featureData, null, "  ")
   );
   fs.writeFileSync(
-    `BP/loot_tables/${flowerType}/${flowerType}_boquet.json`,
-    JSON.stringify(lootData)
+    `BP/loot_tables/blocks/${flowerType}/${flowerType}_boquet.json`,
+    JSON.stringify(lootData, null, "  ")
   );
-  fs.appendFileSync(`RP/texts/en_US.lang`, langData);
-  fs.appendFileSync(
-    `RP/blocks.json`,
-    JSON.stringify({
-      [`${ffFlowerTypeBoquet}`]: {
-        sound: "grass",
-      },
-    })
-  );
-  fs.appendFileSync(
-    `RP/textures/terrain_texture.json`,
-    JSON.stringify(terrainData)
-  );
-  fs.appendFileSync(
-    `RP/textures/item_texture.json`,
-    JSON.stringify(itemTextureData)
-  );
+  langName = titleCase(flowerType);
+  langData += `\nitem.ff:${flowerType}_boquet_item=${langName} Boquet`;
+  blocksData[ffFlowerTypeBoquet] = { sound: "grass" };
+  textureData.texture_data[flowerTypeBoquet] = {
+    textures: `textures/blocks/${flowerType}/${flowerTypeBoquet}`,
+  };
+  itemTextureData.texture_data[flowerTypeBoquet] = {
+    textures: `textures/items/${flowerType}/${flowerTypeBoquet}`,
+  };
 }
+fs.writeFileSync(`RP/texts/en_US.lang`, langData);
+fs.writeFileSync(`RP/blocks.json`, JSON.stringify(blocksData, null, "  "));
+fs.writeFileSync(
+  `RP/textures/terrain_texture.json`,
+  JSON.stringify(textureData, null, "  ")
+);
+fs.writeFileSync(
+  `RP/textures/item_texture.json`,
+  JSON.stringify(itemTextureData, null, "  ")
+);

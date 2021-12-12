@@ -1,0 +1,21 @@
+{
+  "format_version": 1.12,
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "ff:dandelion_boquet_into_dandelion"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "ff:dandelion_boquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "ff:dandelion_item",
+      "count": 9
+    }
+  }
+}

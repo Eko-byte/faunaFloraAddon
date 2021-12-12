@@ -1,1 +1,57 @@
-{"format_version":"1.16.100","minecraft:block":{"description":{"identifier":"nature:lilac_boquet"},"components":{"minecraft:placement_filter":{"conditions":[{"allowed_faces":["up"],"block_filter":["minecraft:grass","minecraft:dirt","minecraft:podzol","minecraft:moss_block"]}]},"minecraft:loot":"loot_tables/blocks/lilac_boquet.json","minecraft:geometry":"geometry.large_fern","minecraft:material_instances":{"*":{"render_method":"alpha_test","texture":"lilac_boquet","face_dimming":false,"ambient_occlusion":false}},"minecraft:entity_collision":false,"minecraft:block_light_absorption":0,"minecraft:destroy_time":0,"minecraft:breathability":"air","minecraft:breakonpush":true,"minecraft:on_interact":{"condition":"q.get_equipped_item_name=='bone_meal'","event":"fertilize_block"}},"events":{"fertilize_block":{"spawn_loot":{"table":"loot_tables/blocks/lilac_boquet.json"},"decrement_stack":{},"run_command":{"command":["particle minecraft:crop_growth_emitter ~ ~ ~"]}}}}}
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "ff:lilac_boquet"
+    },
+    "components": {
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "minecraft:grass",
+              "minecraft:dirt",
+              "minecraft:podzol",
+              "minecraft:moss_block"
+            ]
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/blocks/lilac_boquet.json",
+      "minecraft:geometry": "geometry.large_fern",
+      "minecraft:material_instances": {
+        "*": {
+          "render_method": "alpha_test",
+          "texture": "lilac_boquet",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:entity_collision": false,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:destroy_time": 0,
+      "minecraft:breathability": "air",
+      "minecraft:breakonpush": true,
+      "minecraft:on_interact": {
+        "condition": "q.get_equipped_item_name=='bone_meal'",
+        "event": "fertilize_block"
+      }
+    },
+    "events": {
+      "fertilize_block": {
+        "spawn_loot": {
+          "table": "loot_tables/blocks/lilac_boquet.json"
+        },
+        "decrement_stack": {},
+        "run_command": {
+          "command": [
+            "particle minecraft:crop_growth_emitter ~ ~ ~"
+          ]
+        }
+      }
+    }
+  }
+}

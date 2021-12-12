@@ -1,0 +1,21 @@
+{
+  "format_version": 1.12,
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "ff:blue_orchid_boquet_into_blue_orchid"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "ff:blue_orchid_boquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "ff:blue_orchid_item",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "format_version": 1.12,
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "ff:azure_bluet_boquet_into_azure_bluet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "ff:azure_bluet_boquet_item",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "ff:azure_bluet_item",
+      "count": 9
+    }
+  }
+}
